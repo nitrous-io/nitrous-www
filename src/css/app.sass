@@ -1,0 +1,83 @@
+@import '_bootstrap'
+@import 'colors'
+
+body
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif
+  color: black
+
+a, .btn, input
+  transition: background-color .1s, color .1s, border-color .1s, box-shadow .1s
+
+  &:focus, &:active:focus
+    outline: none
+
+code, kbd, pre, samp
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, "Courier New", monospace
+
+header
+  .navbar
+    margin-bottom: 0
+
+main.jumbotron
+  background: $brandBlue
+  color: white
+  text-align: center
+
+/* Default: Extra small devices (phones, less than 768px) */
+header
+  .jumbotron
+    h1
+      font-size: 36px
+      margin: 24px 0
+
+    p
+      font-size: 20px
+      margin: 24px 0
+
+    .get-started-btn
+      margin-bottom: 24px
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min)
+  header
+    .jumbotron
+      h1
+        font-size: 50px
+        margin: 36px 0
+
+      p
+        font-size: 22px
+        margin: 36px 0
+
+    .get-started-btn
+      margin-bottom: 36px
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min)
+  header
+    .jumbotron
+      h1
+        font-size: 64px
+        margin: 48px 0
+
+      p
+        font-size: 24px
+        margin: 48px 0
+
+    .get-started-btn
+      margin-bottom: 48px
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min)
+  header
+    .jumbotron
+      h1
+        font-size: 72px
+
+      p
+        font-size: 28px
+
+/* Hi-DPI displays */
+@media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi)
+  #some-div
+    background-image: url(/images/some-image@2x.png)
