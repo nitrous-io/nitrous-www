@@ -25,12 +25,18 @@ section
     margin: 0 0 1em
 
 header
-  // +linear-gradient(-120deg, #2e157c, #297afc)
   background: url('/images/hero-bg.jpg') 0 50% repeat-x
   color: #fff
   #navbar-collapse.collapse.navbar-collapse
     border-bottom: 1px solid rgba(200,200,225,0.2)
-  .navbar.navbar-static-top
+  .navbar.navbar-static-top.navbar-default
+    button.navbar-toggle
+      border: 1px solid transparent
+      span.icon-bar
+        background-color: #fefefe
+      &:hover, &:focus
+        background: transparent
+        border: 1px solid #fefefe
     background-color: transparent
     border: 0
     margin-bottom: 0
@@ -48,16 +54,6 @@ header
         color: #f8f8f8
         &:hover
           color: #fff
-      li.signup
-        margin-right: 16px
-        a
-          border: 1px solid rgba(255, 255, 255, 0.3)
-          padding: 5px 10px
-          position: relative
-          top: 9px
-          border-radius: 2px
-          &:hover
-            border-color: rgba(255, 255, 255, 0.5)
 
 main.jumbotron
   background-color: transparent

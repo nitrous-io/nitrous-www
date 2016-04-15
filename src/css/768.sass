@@ -1,9 +1,22 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min)
   header
-    .navbar.navbar-static-top
+    .nav.navbar.navbar-static-top.navbar-default
       a.navbar-brand
         margin-left: 0
+
+      #navbar-collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+          li.signup
+            margin-right: 16px
+            a
+              border: 1px solid rgba(255, 255, 255, 0.3)
+              padding: 5px 10px
+              position: relative
+              top: 9px
+              border-radius: 2px
+              &:hover
+                border-color: rgba(255, 255, 255, 0.5)
 
     .jumbotron
       h1
