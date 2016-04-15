@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="156px" height="174px" viewBox="0 0 156 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nitrous-hexamark-white</title>
+    <defs>
+        <polygon id="path-1" points="80 0 149.282032 40 149.282032 120 80 160 10.7179677 120 10.7179677 40 "></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nitrous-hexamark-white" transform="translate(-2.000000, 7.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Polygon-11" stroke="#FFFFFF" stroke-width="8" xlink:href="#path-1"></use>
+            <path d="M48,104 L48,56 L70.3316378,56 L97.5462869,91.0539419 L97.5462869,56 L112,56 L112,104 L89.4730417,104 L62.4537131,69.3443983 L62.4537131,104 L48,104 Z" id="Path-6" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

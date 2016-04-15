@@ -20,34 +20,131 @@ html
               span.icon-bar
               span.icon-bar
             a.navbar-brand href='#'
-              . Nitrous
+              | Nitrous
 
           #navbar-collapse.collapse.navbar-collapse
             ul.nav.navbar-nav.navbar-right
               li
                 a href='#' Pricing
               li
-                a href='#' Help
-              li
                 a href='#' Community
+              li.action
+                a href="#" Login
+              li.action.signup
+                a href="#" Signup
 
       main.jumbotron
         .container
-          h1
-            | Build apps faster, yo
-          p
-            | Professional developers use Nitrous to create, snapshot
-            | and share development environments in the cloud
+          .row
+            .col-md-5
+              h1
+                | One-Click
+                span.stack  Ruby
+                |  Setup
+              p
+                | No installation required. Start coding in seconds.
 
-          button.get-started-btn.btn.btn-lg.btn-default type='button' data-toggle='tooltip' data-placement='bottom' title="It's Free!" Get Started
+              button.get-started-btn.btn.btn-lg.btn-default type='button' data-toggle='tooltip' data-placement='bottom' title="It's Free!" Get Started Free
 
-    section#features
+            .col-md-7.hidden-xs
+              img.templates src="/images/index/templates.png"
+
+    section#quickstarts
       .container
+        h2 Start Coding Now with Nitrous Quickstarts
+        .subtitle
+          p
+            | Build custom development environments from any GitHub project by defining your project setup in
+            code
+              a href="#" nitrous.json
+            | . Seriously, click any of the starter templates below:
+        .qs-container
+          .quickstarts
+            a.qs-template href="#"
+              .logo
+                img src="/images/stacks/rails.png"
+              .meta
+                h4 Ruby on Rails
+                p.desc Rails4 application with ruby, postgres and redis pre-installed.
+            a.qs-template href="#"
+              .logo
+                img src="/images/stacks/jekyll.png"
+              .meta
+                h4 Jekyll
+                p.desc Ruby installed and Jekyll already configured to start coding.
+            a.qs-template href="#"
+              .logo
+                img src="/images/stacks/wordpress.png"
+              .meta
+                h4 Wordpress
+                p.desc Standard Wordpress install with PHP, MySQL and Apache server.
+            a.qs-template href="#"
+              .logo
+                img src="/images/stacks/html5.png"
+              .meta
+                h4 HTML5
+                p.desc A solid HTML5 skeleton start static or dynamic frontend apps.
+            a.qs-template href="#"
+              .logo
+                img src="/images/stacks/php.png"
+              .meta
+                h4 PHP
+                p.desc Standard PHP, MySQL and Apache template on Ubuntu. Ready to go.
+            a.qs-template href="#"
+              .logo
+                img src="/images/stacks/python.png"
+              .meta
+                h4 Python
+                p.desc Python, Redis, and some other goodies.
+
+        .qs-more-actions
+          a.btn.btn-default href="/quickstarts" See more Quickstarts
+          a.btn.btn-default href="#" Create a Quickstart for your Git repo
+
+    section#use-cases
+      .container
+        ul.use-cases
+          li
+            h4 Education
+            p Educational API and contact button
+          li
+            h4 Remote Teams
+            p Remote teams orgs page link
+          li
+            h4 Agencies
+            p Agencies static sites hosting
+
+    section#signup-end
+      .container
+        a.btn.btn-default href="#"
+          | Create your first app in 60 seconds. 100% free.
 
     footer
       .container
-        h4 Nitrous
-        p &copy; 2016 Nitrous, Inc. All Rights Reserved.
+        .col-md-2
+          h4 Resources
+          ul
+            li something
+            li something
+            li something
+        .col-md-2
+          h4 About
+          ul
+            li something
+            li something
+            li something
+        .col-md-2
+          h4 Connect
+          ul
+            li something
+            li something
+            li something
+        .col-md-6.pull-right
+          h4 Company
+          ul
+            li privacy
+            li terms
+            li something
 
     script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"
     script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"
