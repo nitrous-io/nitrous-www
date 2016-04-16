@@ -25,6 +25,8 @@ html
           #navbar-collapse.collapse.navbar-collapse
             ul.nav.navbar-nav.navbar-right
               li
+                a href='#' Products
+              li
                 a href='#' Pricing
               li
                 a href='#' Community
@@ -36,7 +38,7 @@ html
       main.jumbotron
         .container
           .row
-            .col-md-5
+            .col-md-5.col-sm-12.col-xs-12
               h1
                 | One-Click
                 span.stack  Ruby
@@ -44,58 +46,55 @@ html
               p
                 | No installation required. Start coding in seconds.
 
-              button.get-started-btn.btn.btn-lg.btn-default type='button' data-toggle='tooltip' data-placement='bottom' title="It's Free!" Get Started Free
+              button.get-started-btn.btn.btn-lg.btn-default type='button' Get Started Free
 
-            .col-md-7.hidden-xs
+            .col-md-7.hidden-xs.hidden-sm
               img.templates src="/images/index/templates.png"
 
-    section#quickstarts
+    section.hero#quickstarts
       .container
         h2 Start Coding Now with Nitrous Quickstarts
-        .subtitle
-          p
-            | Build custom development environments from any GitHub project by defining your project setup in
-            code
-              a href="#" nitrous.json
-            | . Seriously, click any of the starter templates below:
-        .qs-container
-          .quickstarts
-            a.qs-template href="#"
-              .logo
-                img src="/images/stacks/rails.png"
-              .meta
-                h4 Ruby on Rails
-                p.desc Rails4 application with ruby, postgres and redis pre-installed.
-            a.qs-template href="#"
-              .logo
-                img src="/images/stacks/jekyll.png"
-              .meta
-                h4 Jekyll
-                p.desc Ruby installed and Jekyll already configured to start coding.
-            a.qs-template href="#"
-              .logo
-                img src="/images/stacks/wordpress.png"
-              .meta
-                h4 Wordpress
-                p.desc Standard Wordpress install with PHP, MySQL and Apache server.
-            a.qs-template href="#"
-              .logo
-                img src="/images/stacks/html5.png"
-              .meta
-                h4 HTML5
-                p.desc A solid HTML5 skeleton start static or dynamic frontend apps.
-            a.qs-template href="#"
-              .logo
-                img src="/images/stacks/php.png"
-              .meta
-                h4 PHP
-                p.desc Standard PHP, MySQL and Apache template on Ubuntu. Ready to go.
-            a.qs-template href="#"
-              .logo
-                img src="/images/stacks/python.png"
-              .meta
-                h4 Python
-                p.desc Python, Redis, and some other goodies.
+        h4.subtitle
+          | Create custom environment templates from any GitHub project by defining your project setup in
+          code
+            a href="#" nitrous.json
+        ul.flex-list.quickstarts
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/rails.png"
+            .meta
+              h4 Ruby on Rails
+              p.desc Rails4 with ruby, postgres and redis pre-installed.
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/jekyll.png"
+            .meta
+              h4 Jekyll
+              p.desc Ruby and Jekyll installed and ready to start coding.
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/wordpress.png"
+            .meta
+              h4 Wordpress
+              p.desc Standard Wordpress install with PHP, MySQL and Apache server.
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/html5.png"
+            .meta
+              h4 HTML5
+              p.desc A solid HTML5 skeleton start static or dynamic frontend apps.
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/php.png"
+            .meta
+              h4 PHP
+              p.desc Standard PHP, MySQL and Apache template on Ubuntu.
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/python.png"
+            .meta
+              h4 Python
+              p.desc Python, Redis, and some other goodies.
 
         .qs-more-actions
           a.btn.btn-default href="/quickstarts" See more Quickstarts

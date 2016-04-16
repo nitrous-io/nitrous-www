@@ -1,0 +1,49 @@
+header
+  background: url('/images/hero-bg.jpg') 0 50% repeat-x
+  color: $headerColor
+  #navbar-collapse.collapse.navbar-collapse
+    border-bottom: 1px solid $navbarBorderColor
+  .navbar.navbar-static-top.navbar-default
+    button.navbar-toggle
+      border: 1px solid $navbarToggleBgColor
+      span.icon-bar
+        background-color: $navbarToggleColor
+      &:hover, &:focus
+        background: $navbarToggleBgColor
+        border: 1px solid $navbarToggleColor
+    background-color: $navbarToggleBgColor
+    border: 0
+    margin-bottom: 0
+    a.navbar-brand
+      width: 140px
+      height: 48px
+      display: block
+      text-indent: -99999px
+      background: url('/images/nitrous-logo-white.svg') 0 50% no-repeat
+      background-size: 127px 48px
+      margin-left: 16px
+    ul.nav.navbar-nav
+      color: #fff
+      a
+        color: #f8f8f8
+        &:hover
+          color: #fff
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min)
+  .nav.navbar.navbar-static-top.navbar-default
+    a.navbar-brand
+      margin-left: 0
+
+    #navbar-collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.signup
+          margin-right: 16px
+          a
+            border: 1px solid rgba(255, 255, 255, 0.3)
+            padding: 5px 10px
+            position: relative
+            top: 9px
+            border-radius: 2px
+            &:hover
+              border-color: rgba(255, 255, 255, 0.5)
