@@ -117,50 +117,90 @@ html
           .action
             a.btn.btn-lg.btn-primary href="#" Read Quickstart Docs
 
-    section#use-cases
+    section.hero#use-cases
       .container
-        ul.use-cases
-          li
+        h2 Solutions for Education, Teams & Agencies.
+        h4.subtitle
+          | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
+        .flex-list
+          a.flex-item.education
             h4 Education
             p Educational API and contact button
-          li
+          a.flex-item.remote
             h4 Remote Teams
             p Remote teams orgs page link
-          li
+          a.flex-item.agencies
             h4 Agencies
             p Agencies static sites hosting
 
-    section#signup-end
+    section.hero#signup-end
       .container
-        a.btn.btn-default href="#"
-          | Create your first app in 60 seconds. 100% free.
+        .row
+          .col-xs-12.col-md-6.col-md-offset-3
+            a.btn.btn-lg.btn-primary href="#"
+              | Create your first app in 60 seconds. 100% free.
 
     footer
       .container
-        .col-md-2
-          h4 Resources
-          ul
-            li something
-            li something
-            li something
+        .col-md-4
+          .copyright
+            a.nitrous-logo href="/"
+            .copy-wrapper
+              p &copy; 2012-2016 Nitrous Inc.
         .col-md-2
           h4 About
           ul
-            li something
-            li something
-            li something
+            li
+              a href="/pricing" Pricing
+            li
+              a href="/features" Features
+            li
+              a href="/company" Company
+            li
+              a href="/jobs" Jobs
+            li
+              a href="/press" Press
+            li
+              a href="https://community.nitrous.io/blog/" Blog
         .col-md-2
-          h4 Connect
+          h4 Use Cases
           ul
-            li something
-            li something
-            li something
-        .col-md-6.pull-right
+            li
+              a href="/flatiron" Flatiron
+            li
+              a href="/education" Education
+            li
+              a href="/agencies" Agencies
+            li
+              a href="/orgs" Orgs
+            li
+              a href="/quickstarts" Quickstarts
+            li
+              a href="/vpc" VPC
+        .col-md-2
+          h4 Resources
+          ul
+            li
+              a href="https://community.nitrous.io/docs" Documentation
+            li
+              a href="#" Getting Started
+            li
+              a href="#" Using GitHub
+            li
+              a href="#" Creating Quickstarts
+            li
+              a href="/pricing" Tutorials
+        .col-md-2
           h4 Company
           ul
-            li privacy
-            li terms
-            li something
+            li
+              a href="#" Privacy
+            li
+              a href="#" Terms of Service
+            li
+              a href="#" Security
+            li
+              a href="https://status.nitrous.io" Status
 
     script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"
     script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"
