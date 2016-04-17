@@ -95,10 +95,27 @@ html
             .meta
               h4 Python
               p.desc Python, Redis, and some other goodies.
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/nodejs.png"
+            .meta
+              h4 NodeJS
+              p.desc Standard NodeJS Repo. Ready to rumble.
+          a.flex-item href="#"
+            .logo
+              img src="/images/stacks/golang.png"
+            .meta
+              h4 Golang
+              p.desc A sample Go 1.6.1 project running on Ubuntu.
+          a.flex-item.see-more href="/quickstarts"
+            | See more Quickstart templates &raquo;
 
-        .qs-more-actions
-          a.btn.btn-default href="/quickstarts" See more Quickstarts
-          a.btn.btn-default href="#" Create a Quickstart for your Git repo
+        .more-info
+          .text
+            strong Custom Quickstarts.
+            |  Want to create a custom Quickstart from your own GitHub Repo?
+          .action
+            a.btn.btn-lg.btn-primary href="#" Read Quickstart Docs
 
     section#use-cases
       .container

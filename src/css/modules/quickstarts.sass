@@ -1,9 +1,14 @@
 section#quickstarts
   .quickstarts
-    margin-bottom: 48px
+    margin-bottom: 24px
     a.flex-item
       border-radius: 5px
       border: 2px solid #f8f8f8
+      &.see-more
+        line-height: 4em
+        text-align: center
+        font-size: 1.3em
+        color: #aaa
       &:hover
         transition: all .3s
         text-decoration: none
@@ -33,30 +38,9 @@ section#quickstarts
             border-color: #3970ff
             background: #4484f4
 
-  .qs-more-actions
-    display: flex
-    justify-content: space-between
-    margin: 16px 0
-    a.btn
-      padding: 12px
-      width: 100%
-      border: 2px solid #ddd
-      background: transparent
-      font-color: #357
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm-min)
-  section#quickstarts
-    ul
-      li.qs-template
-        width: 48%
-    .qs-more-actions
-      a.btn
-        width: 48%
+// @media (min-width: $screen-sm-min)
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md-min)
-  section#quickstarts
-    ul
-      li.qs-template
-        width: 32%
+// @media (min-width: $screen-md-min)
