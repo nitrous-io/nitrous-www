@@ -27,13 +27,13 @@ html
               li
                 a href='#' Products
               li
-                a href='#' Pricing
+                a href='/pricing' Pricing
               li
-                a href='#' Community
+                a href='https://community.nitrous.io' Community
               li.action
-                a href="#" Login
+                a href="https://www.nitrous.io/app/#/login" Login
               li.action.signup
-                a href="#" Signup
+                a href="https://www.nitrous.io/app/#/signup" Signup
 
       main.jumbotron
         .container
@@ -46,7 +46,8 @@ html
               p
                 | No installation required. Start coding in seconds.
 
-              button.get-started-btn.btn.btn-lg.btn-default type='button' Get Started Free
+              button.get-started-btn.btn.btn-lg.btn-default type='button'
+                | Get Started Free
 
             .col-md-7.hidden-xs.hidden-sm
               img.templates src="/images/index/templates.png"
@@ -115,7 +116,7 @@ html
             strong Custom Quickstarts.
             |  Want to create a custom Quickstart from your own GitHub Repo?
           .action
-            a.btn.btn-lg.btn-primary href="#" Read Quickstart Docs
+            a.btn.btn-lg.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
 
     section.hero#use-cases
       .container
@@ -135,18 +136,21 @@ html
 
     section.hero#signup-end
       .container
+        h2 Create your first app in 60 seconds. 100% free.
         .row
-          .col-xs-12.col-md-6.col-md-offset-3
+          .col-xs-12.action
             a.btn.btn-lg.btn-primary href="#"
-              | Create your first app in 60 seconds. 100% free.
+              | Get Started
 
     footer
       .container
         .col-md-4
           .copyright
-            a.nitrous-logo href="/"
+            a.nitrous-logo href="/" Nitrous
             .copy-wrapper
               p &copy; 2012-2016 Nitrous Inc.
+          a.mixpanel-btn href="https://mixpanel.com/f/partner"
+            img alt="Mixpanel Badge" src="////cdn.mxpnl.com/site_media/images/partner/badge_light@2x.png"
         .col-md-2
           h4 About
           ul
