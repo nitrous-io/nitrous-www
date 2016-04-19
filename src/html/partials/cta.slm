@@ -1,0 +1,7 @@
+.hero.cta
+  h2 Start coding in the cloud today
+  .subtitle
+    | Build software using our Web IDE, Chrome app, or your favorite Desktop editor. Share your workspace and code collaboratively with teammates, right in your Web browser.
+    
+  a.btn.btn-primary href="https://www.nitrous.io/app/#/signup"
+    Get Started For Free
