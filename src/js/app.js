@@ -6,3 +6,7 @@ $('.get-started-btn').tooltip({
   e.preventDefault();
   location.href = 'https://app.nitrous.io/#/signup';
 });
+
+$(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+});

@@ -1,0 +1,64 @@
+== partial('partials/head')
+== partial('partials/navbar')
+
+.hero.main
+  .container
+    h2 Our Company
+    h4.subtitle Building the future of development environments
+
+.hero.people
+  .container
+    p.big
+      | Nitrous is developed and maintained by an experienced team based out of San Francisco and Singapore. We focus on building the best tools for developers and teams around the world.
+
+    ul
+      li data-toggle="tooltip" title="Scott has a deep knowledge of platforms and cloud computing with three successful startup exits - one in excess of $1b. He has managed teams at Microsoft, Salesforce and VMWare."
+        img alt="Scott Collison" src="/images/company/collison.png"
+
+      li data-toggle="tooltip" title="AJ loves baseball, surfing, and networked home appliances. He studied economics at Harvard and is obsessed with microformats"
+        img alt="AJ" src="/images/company/solimine.png"
+
+      li data-toggle="tooltip" title="Pete started programming at the age of 8, when most kids were still picking their nose. He likes cycling and playing airsoft games"
+        img alt="Pete" src="/images/company/pete.png"
+
+      li data-toggle="tooltip" title="Nicole is the glue that holds it all together at Nitrous. She enjoys designing clothes, animals of all kinds, and reading great books"
+        img alt="Nicole" src="/images/company/nicole.png"
+
+      li data-toggle="tooltip" title="Chu Yeow likes: Miyo (his tortoiseshell cat), Japan, anime. Dislikes: trailing whitespace, tabs"
+        img alt="Chu Yeow" src="/images/company/cheah.png"
+
+      li data-toggle="tooltip" title="Sunjin is a Level 90 Pandaren Ale-Drinker at Nitrous. He is able to code for multiple days without sleep as long as there is an uninterrupted supply of beer"
+        img alt="Sunjin" src="/images/company/sunjin.png"
+
+      li data-toggle="tooltip" title="Javier is an avid cyclist who likes to spin up servers and watch them run in graphs and metrics"
+        img alt="Javier" src="/images/company/javier.png"
+
+      li data-toggle="tooltip" title="This is YC. YC writes code in cloud. YC uses Nitrous. YC is smart. Be like YC."
+        img alt="YC" src="/images/company/yc.png"
+
+.hero.investors
+  .container
+    .row
+      .col-xs-12.col-md-4
+        img src='/images/company/bvp-logo.png' width='315px' height='80px' alt='Bessemer Venture Partners logo'
+      .col-xs.12.col-md-8
+        p
+          | Bessemer Venture Partners led Nitrous' Seed and Series A financing rounds.
+        p
+          | Bessemer Venture Partners (BVP) invests in early-stage and hyper-growth startups, partnering closely with entrepreneurs to build durable businesses. With $4 billion under management, BVP invests anywhere from $100,000 to $75 million in innovative companies like Pinterest, Twilio, Box, LinkedIn, Shopify, Yelp, Skype and Nitrous. Over 100 BVP companies have gone public – in the last three years alone, BVP has had 46 exits (IPO and M&amp;A) and made new investments in more than 85 companies. Learn more at
+          a href="http://www.bvp.com/" www.bvp.com
+
+.maps
+  .row
+    .col-xs-12.col-md-6.map
+      .address
+        .address-1 501 2nd street Ste 575
+        .address-2 San Francisco
+      .pin
+    .col-xs-12.col-md-6.map
+      .address
+        .address-1 29A Teo Hong Road
+        .address-2 Singapore
+      .pin
+
+== partial('partials/footer')

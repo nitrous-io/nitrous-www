@@ -1,211 +1,111 @@
-doctype html
-html
-  head
-    meta charset='utf-8'
-    meta http-equiv='X-UA-Compatible' content='IE=edge'
-    meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
+== partial('partials/head')
+== partial('partials/navbar')
 
-    title Nitrous
-    link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'
-    link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic,900,900italic|Source+Code+Pro:400,700'
-    link rel='stylesheet' href='/css/app.css'
-  body
-    header
-      .nav.navbar.navbar-default.navbar-static-top
-        .container
-          .navbar-header
-            button.navbar-toggle.collapsed type='button' data-toggle='collapse' data-target='#navbar-collapse' aria-expanded='false'
-              span.sr-only Toggle navigation
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-            a.navbar-brand href='#'
-              | Nitrous
+main.jumbotron
+  .container
+    .row
+      .col-md-5.col-sm-12.col-xs-12
+        h1
+          | One-Click
+          span.stack  Ruby
+          |  Setup
+        p
+          | No installation required. Start coding in seconds.
 
-          #navbar-collapse.collapse.navbar-collapse
-            ul.nav.navbar-nav.navbar-right
-              li
-                a href='#' Products
-              li
-                a href='/pricing' Pricing
-              li
-                a href='https://community.nitrous.io' Community
-              li.action
-                a href="https://www.nitrous.io/app/#/login" Login
-              li.action.signup
-                a href="https://www.nitrous.io/app/#/signup" Signup
+        button.get-started-btn.btn.btn-lg.btn-default type='button'
+          | Get Started Free
 
-      main.jumbotron
-        .container
-          .row
-            .col-md-5.col-sm-12.col-xs-12
-              h1
-                | One-Click
-                span.stack  Ruby
-                |  Setup
-              p
-                | No installation required. Start coding in seconds.
+      .col-md-7.hidden-xs.hidden-sm
+        img.templates src="/images/index/templates.png"
 
-              button.get-started-btn.btn.btn-lg.btn-default type='button'
-                | Get Started Free
+section.hero#quickstarts
+  .container
+    h2 Start Coding Now with Nitrous Quickstarts
+    h4.subtitle
+      | Create custom environment templates from any GitHub project by defining your project setup in
+      code
+        a href="#" nitrous.json
+    ul.flex-list.quickstarts
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/rails.png"
+        .meta
+          h4 Ruby on Rails
+          p.desc Rails4 with ruby, postgres and redis pre-installed.
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/jekyll.png"
+        .meta
+          h4 Jekyll
+          p.desc Ruby and Jekyll installed and ready to start coding.
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/wordpress.png"
+        .meta
+          h4 Wordpress
+          p.desc Standard Wordpress install with PHP, MySQL and Apache server.
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/html5.png"
+        .meta
+          h4 HTML5
+          p.desc A solid HTML5 skeleton start static or dynamic frontend apps.
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/php.png"
+        .meta
+          h4 PHP
+          p.desc Standard PHP, MySQL and Apache template on Ubuntu.
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/python.png"
+        .meta
+          h4 Python
+          p.desc Python, Redis, and some other goodies.
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/nodejs.png"
+        .meta
+          h4 NodeJS
+          p.desc Standard NodeJS Repo. Ready to rumble.
+      a.flex-item href="#"
+        .logo
+          img src="/images/stacks/golang.png"
+        .meta
+          h4 Golang
+          p.desc A sample Go 1.6.1 project running on Ubuntu.
+      a.flex-item.see-more href="/quickstarts"
+        | See more Quickstart templates &raquo;
 
-            .col-md-7.hidden-xs.hidden-sm
-              img.templates src="/images/index/templates.png"
+    .more-info
+      .text
+        strong Custom Quickstarts.
+        |  Want to create a custom Quickstart from your own GitHub Repo?
+      .action
+        a.btn.btn-lg.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
 
-    section.hero#quickstarts
-      .container
-        h2 Start Coding Now with Nitrous Quickstarts
-        h4.subtitle
-          | Create custom environment templates from any GitHub project by defining your project setup in
-          code
-            a href="#" nitrous.json
-        ul.flex-list.quickstarts
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/rails.png"
-            .meta
-              h4 Ruby on Rails
-              p.desc Rails4 with ruby, postgres and redis pre-installed.
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/jekyll.png"
-            .meta
-              h4 Jekyll
-              p.desc Ruby and Jekyll installed and ready to start coding.
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/wordpress.png"
-            .meta
-              h4 Wordpress
-              p.desc Standard Wordpress install with PHP, MySQL and Apache server.
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/html5.png"
-            .meta
-              h4 HTML5
-              p.desc A solid HTML5 skeleton start static or dynamic frontend apps.
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/php.png"
-            .meta
-              h4 PHP
-              p.desc Standard PHP, MySQL and Apache template on Ubuntu.
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/python.png"
-            .meta
-              h4 Python
-              p.desc Python, Redis, and some other goodies.
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/nodejs.png"
-            .meta
-              h4 NodeJS
-              p.desc Standard NodeJS Repo. Ready to rumble.
-          a.flex-item href="#"
-            .logo
-              img src="/images/stacks/golang.png"
-            .meta
-              h4 Golang
-              p.desc A sample Go 1.6.1 project running on Ubuntu.
-          a.flex-item.see-more href="/quickstarts"
-            | See more Quickstart templates &raquo;
+section.hero#use-cases
+  .container
+    h2 Solutions for Education, Teams & Agencies.
+    h4.subtitle
+      | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
+    .flex-list
+      a.flex-item.education
+        h4 Education
+        p Educational API and contact button
+      a.flex-item.remote
+        h4 Remote Teams
+        p Remote teams orgs page link
+      a.flex-item.agencies
+        h4 Agencies
+        p Agencies static sites hosting
 
-        .more-info
-          .text
-            strong Custom Quickstarts.
-            |  Want to create a custom Quickstart from your own GitHub Repo?
-          .action
-            a.btn.btn-lg.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
+section.hero#signup-end
+  .container
+    h2 Create your first app in 60 seconds. 100% free.
+    .row
+      .col-xs-12.action
+        a.btn.btn-lg.btn-primary href="#"
+          | Get Started
 
-    section.hero#use-cases
-      .container
-        h2 Solutions for Education, Teams & Agencies.
-        h4.subtitle
-          | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
-        .flex-list
-          a.flex-item.education
-            h4 Education
-            p Educational API and contact button
-          a.flex-item.remote
-            h4 Remote Teams
-            p Remote teams orgs page link
-          a.flex-item.agencies
-            h4 Agencies
-            p Agencies static sites hosting
-
-    section.hero#signup-end
-      .container
-        h2 Create your first app in 60 seconds. 100% free.
-        .row
-          .col-xs-12.action
-            a.btn.btn-lg.btn-primary href="#"
-              | Get Started
-
-    footer
-      .container
-        .col-md-4
-          .copyright
-            a.nitrous-logo href="/" Nitrous
-            .copy-wrapper
-              p &copy; 2012-2016 Nitrous Inc.
-          a.mixpanel-btn href="https://mixpanel.com/f/partner"
-            img alt="Mixpanel Badge" src="////cdn.mxpnl.com/site_media/images/partner/badge_light@2x.png"
-        .col-md-2
-          h4 About
-          ul
-            li
-              a href="/pricing" Pricing
-            li
-              a href="/features" Features
-            li
-              a href="/company" Company
-            li
-              a href="/jobs" Jobs
-            li
-              a href="/press" Press
-            li
-              a href="https://community.nitrous.io/blog/" Blog
-        .col-md-2
-          h4 Use Cases
-          ul
-            li
-              a href="/flatiron" Flatiron
-            li
-              a href="/education" Education
-            li
-              a href="/agencies" Agencies
-            li
-              a href="/orgs" Orgs
-            li
-              a href="/quickstarts" Quickstarts
-            li
-              a href="/vpc" VPC
-        .col-md-2
-          h4 Resources
-          ul
-            li
-              a href="https://community.nitrous.io/docs" Documentation
-            li
-              a href="#" Getting Started
-            li
-              a href="#" Using GitHub
-            li
-              a href="#" Creating Quickstarts
-            li
-              a href="/pricing" Tutorials
-        .col-md-2
-          h4 Company
-          ul
-            li
-              a href="#" Privacy
-            li
-              a href="#" Terms of Service
-            li
-              a href="#" Security
-            li
-              a href="https://status.nitrous.io" Status
-
-    script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"
-    script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"
-    script src='/js/app.js'
+== partial('partials/footer')
