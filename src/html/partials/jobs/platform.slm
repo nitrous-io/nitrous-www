@@ -1,0 +1,34 @@
+p The Nitrous platform engineering and devops team works on the infrastructure and tools that power our cutting-edge cloud development platform.
+
+p We're looking for talented engineers who are passionate about building fault-tolerant distributed systems, automating configuration and deployment, and bringing about a level of security to our deployment process which enables our application teams to deploy features quickly and consistently.
+
+h3 Responsibilities
+
+ul
+  li Implement internal tools such as monitoring, analytics and automated backup in the form of services
+  li Be responsible for the uptime of customer-facing services
+  li Design and lead infrastructure failure simulations and implement corrective measures
+  li Benchmark app performance and design scalable and performant systems and APIs
+
+h3 Technologies
+
+ul
+  li Go, Bash, Ruby
+  li Docker
+  li Amazon Web Services
+  li Chef, Puppet
+  li Vagrant
+  li RabbitMQ, AMQP
+  li PostgreSQL, Redis, Memcache
+  li Nginx, HAProxy
+  li Monit, Nagios, Sensu
+  li Collectd, Statsd, Diamond, Riemann
+  li Graphite, Logstash
+  li Git
+
+h4 To apply, please provide the following:
+
+ul
+  li Resume
+  li Github Profile
+  li Links to side/hobby projects that you have built

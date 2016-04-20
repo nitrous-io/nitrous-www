@@ -100,12 +100,5 @@ section.hero#use-cases
         h4 Agencies
         p Agencies static sites hosting
 
-section.hero#signup-end
-  .container
-    h2 Create your first app in 60 seconds. 100% free.
-    .row
-      .col-xs-12.action
-        a.btn.btn-lg.btn-primary href="#"
-          | Get Started
-
+== partial('partials/cta.slm')
 == partial('partials/footer')

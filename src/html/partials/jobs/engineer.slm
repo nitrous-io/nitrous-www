@@ -1,0 +1,36 @@
+p Nitrous software engineers are responsible for driving the user experience and performance of our web and desktop applications.
+
+p We're looking for motivated, independent thinkers who employ creative, scalable and performant solutions.
+
+h3 Responsibilities
+
+ul
+  li Build new features in Go and React
+  li Benchmark app performance and design scalable and performant systems and APIs
+
+h3 Technologies
+
+ul
+  li Go, Ruby
+  li Docker
+  li React, JavaScript (ES6)
+  li PostgreSQL, Redis, Memcache
+  li Websockets
+  li Amazon Web Services
+  li RabbitMQ, AMQP
+  li Git
+
+h3 Requirements
+
+ul
+  li A passion for cloud computing and optimization
+  li Obsessive attention to detail
+  li Risk taker, not afraid to break things to push the envelope of what's possible
+  li Degree in Computer Science or related technical field
+
+p To apply, please provide the following:
+
+ul
+  li Resume
+  li Github Profile
+  li Links to side/hobby projects that you have built

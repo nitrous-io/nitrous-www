@@ -1,0 +1,47 @@
+== partial('partials/head')
+== partial('partials/navbar')
+
+.hero.main
+  .container
+    h2 Our Company
+    h4.subtitle Building the future of development environments
+
+.hero.jobs
+  .container
+    h2 We're changing the way the world codes.
+    h4.subtitle
+      | Click any of the open positions below to learn more.
+
+    #accordion.panel-group role="tablist" aria-multiselectable="true"
+
+      .panel.panel-default
+        #headingOne.panel-heading role="tab"
+          h4.panel-title
+            a.collapsed.platform-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+              | Platform Engineer
+              span.location San Francisco - Singapore
+        #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
+          .panel-body
+            == partial('partials/jobs/platform.slm')
+
+      .panel.panel-default
+        #headingTwo.panel-heading role="tab"
+          h4.panel-title
+            a.collapsed.software-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+              | Software Engineer
+              span.location San Francisco - Singapore
+        #collapseTwo.panel-collapse.collapse role="tabpanel" aria-labelledby="headingTwo"
+          .panel-body
+            == partial('partials/jobs/engineer.slm')
+
+      .panel.panel-default
+        #headingThree.panel-heading role="tab"
+          h4.panel-title
+            a.collapsed.devrel.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+              | Developer Evangelist
+              span.location San Francisco - Remote
+        #collapseThree.panel-collapse.collapse role="tabpanel" aria-labelledby="headingThree"
+          .panel-body
+            == partial('partials/jobs/evangelist.slm')
+
+== partial('partials/footer')
