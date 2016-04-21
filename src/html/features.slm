@@ -1,5 +1,4 @@
-== partial('partials/head')
-== partial('partials/navbar')
+= extend('layout')
 
 .hero.features
   .container
@@ -119,7 +118,4 @@
       a.btn.btn-primary.with-icon.chrome
         | Chrome Web Store
 
-
-
-== partial('partials/cta')
-== partial('partials/footer')
+= partial('partials/cta')

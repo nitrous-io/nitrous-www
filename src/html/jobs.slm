@@ -1,5 +1,4 @@
-== partial('partials/head')
-== partial('partials/navbar')
+= extend('layout')
 
 .hero.main
   .container
@@ -22,7 +21,7 @@
               span.location San Francisco - Singapore
         #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
           .panel-body
-            == partial('partials/jobs/platform.slm')
+            = partial('partials/jobs/platform')
 
       .panel.panel-default
         #headingTwo.panel-heading role="tab"
@@ -32,7 +31,7 @@
               span.location San Francisco - Singapore
         #collapseTwo.panel-collapse.collapse role="tabpanel" aria-labelledby="headingTwo"
           .panel-body
-            == partial('partials/jobs/engineer.slm')
+            = partial('partials/jobs/engineer')
 
       .panel.panel-default
         #headingThree.panel-heading role="tab"
@@ -42,6 +41,4 @@
               span.location San Francisco - Remote
         #collapseThree.panel-collapse.collapse role="tabpanel" aria-labelledby="headingThree"
           .panel-body
-            == partial('partials/jobs/evangelist.slm')
-
-== partial('partials/footer')
+            = partial('partials/jobs/evangelist')

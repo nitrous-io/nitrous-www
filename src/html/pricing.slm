@@ -1,0 +1,99 @@
+= extend('layout')
+
+.hero.pricing
+  h2 Simple Pricing
+  h4.subtitle For students, hobbyists, professionals and teams.
+
+.hero.pricing-plans
+  .container
+    .row
+      .col-xs-12.col-md-3
+        .plan-item
+          .plan-name Free
+          .plan-price
+            span $0
+            small
+              |  /mo.
+          .plan-desc For learning and experimenting
+
+          .plan-details
+            ul.plan-details
+              li
+                | Up to 2 Projects
+              li
+                | 5GB Storage
+              li
+                | 50 hrs / mo. usage
+
+          .plan-action
+            a.btn.btn-primary
+              | Sign Up
+
+      .col-xs-12.col-md-3
+        .plan-item
+          .plan-name Basic
+          .plan-price
+            span $9
+            small
+              |  /mo.
+          .plan-desc More sandboxed projects, no hourly restrictions.
+
+          .plan-details
+            ul.plan-details
+              li
+                | Up to <strong>2</strong> Projects
+              li
+                | 5GB Storage
+              li
+                | 50 hrs / mo. usage
+          .plan-action
+            a.btn.btn-primary
+              | Sign Up
+
+      .col-xs-12.col-md-3
+        .plan-item
+          .plan-name Standard
+          .plan-price
+            span $19
+            small
+              |  /mo.
+          .plan-desc Keep your projects running, no hourly restrictions.
+
+          .plan-details
+            ul.plan-details
+              li
+                | Up to <strong>2</strong> Projects
+              li
+                | 5GB Storage
+              li
+                | 50 hrs / mo. usage
+              li Always ON
+
+          .plan-action
+            a.btn.btn-primary
+              | Sign Up
+
+      .col-xs-12.col-md-3
+        .plan-item
+          .plan-name Professional
+          .plan-price
+            span $49
+            small
+              |  /mo.
+          .plan-desc Enhanced performance for professional projects and hosting.
+
+          .plan-details
+            ul.plan-details
+              li
+                | Up to <strong>2</strong> Projects
+              li
+                | 5GB Storage
+              li
+                | 50 hrs / mo. usage
+              li 2x Memory
+              li Always ON
+
+          .plan-action
+            a.btn.btn-primary
+              | Sign Up
+

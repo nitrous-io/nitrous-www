@@ -6,7 +6,7 @@ footer
         .copy-wrapper
           p &copy; 2012-2016 Nitrous Inc.
       a.mixpanel-btn href="https://mixpanel.com/f/partner"
-        img alt="Mixpanel Badge" src="////cdn.mxpnl.com/site_media/images/partner/badge_light@2x.png"
+        img alt="Mixpanel Badge" src="https://cdn.mxpnl.com/site_media/images/partner/badge_light@2x.png"
     .col-md-2
       h4 About
       ul

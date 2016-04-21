@@ -1,5 +1,4 @@
-== partial('partials/head')
-== partial('partials/navbar')
+= extend('layout')
 
 main.jumbotron
   .container
@@ -100,5 +99,4 @@ section.hero#use-cases
         h4 Agencies
         p Agencies static sites hosting
 
-== partial('partials/cta.slm')
-== partial('partials/footer')
+= partial('partials/cta')

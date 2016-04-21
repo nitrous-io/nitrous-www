@@ -1,9 +1,8 @@
-== partial('partials/head')
-== partial('partials/navbar')
+= extend('layout')
 
 .hero.main
   .container
-    h2 Our Company
+    h2 Nitrous Inc.
     h4.subtitle Building the future of development environments
 
 .hero.people
@@ -60,5 +59,3 @@
         .address-1 29A Teo Hong Road
         .address-2 Singapore
       .pin
-
-== partial('partials/footer')
