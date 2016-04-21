@@ -26,15 +26,19 @@ footer
       h4 Use Cases
       ul
         li
-          a href="/flatiron" Flatiron
+          a href="/flatiron" Flatiron School
         li
           a href="/education" Education
         li
           a href="/agencies" Agencies
         li
-          a href="/orgs" Orgs
+          a href="/orgs"
+            | Orgs
+            span.label.label-primary New
         li
-          a href="/quickstarts" Quickstarts
+          a href="/quickstarts"
+            | Quickstarts
+            span.label.label-primary New
         li
           a href="/vpc" VPC
     .col-md-2
