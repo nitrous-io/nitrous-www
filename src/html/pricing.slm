@@ -26,7 +26,7 @@
                 | 50 hrs / mo. usage
 
           .plan-action
-            a.btn.btn-primary
+            a.btn.btn-basic.caps
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -47,11 +47,11 @@
               li
                 | 50 hrs / mo. usage
           .plan-action
-            a.btn.btn-primary
+            a.btn.btn-basic.caps
               | Sign Up
 
       .col-xs-12.col-md-3
-        .plan-item
+        .plan-item.selected
           .plan-name Standard
           .plan-price
             span $19
@@ -70,14 +70,14 @@
               li Always ON
 
           .plan-action
-            a.btn.btn-primary
+            a.btn.btn-default.caps
               | Sign Up
 
       .col-xs-12.col-md-3
         .plan-item
           .plan-name Professional
           .plan-price
-            span $49
+            span $39
             small
               |  /mo.
           .plan-desc Enhanced performance for professional projects and hosting.
@@ -94,6 +94,15 @@
               li Always ON
 
           .plan-action
-            a.btn.btn-primary
+            a.btn.btn-basic.caps
               | Sign Up
 
+.hero.education-pricing.centered
+  .container
+    h2 Nitrous Education Platform
+    h4.subtitle A powerful API to power your course templates and student workstations.
+
+    a.btn.btn-primary
+      | Contact for pricing
+
+= partial('partials/faq')

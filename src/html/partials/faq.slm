@@ -1,0 +1,54 @@
+.hero.faq
+  .container
+    h2 Frequently Asked Questions
+    .row
+      .col-xs-12.col-md-6
+        h3 What are projects, and how do they relate to workstations?
+        p
+          | A workstation is a dedicated cloud virtual machine that can run multiple projects. Each project is an isolated development environment. All projects on the same workstation share the workstation's resources.
+      .col-xs-12.col-md-6
+        h3 When is my credit card billed?
+        p
+          | We will charge your credit card on the day which you create your workstation. The next charge will be on the same or nearest date the following month.
+    .row
+      .col-xs-12.col-md-6
+        h3
+        p How does the free tier work?
+          | Free workstations have 50 hours of free usage every 30 days. You could use this spread out over the 30 days, or over the course of a cram session.
+      .col-xs-12.col-md-6
+        h3 Can I create multiple workstations?
+        p
+          | You will need to create a new account if you wish to have another workstation. If you are creating multiple workstations for business purposes, you should consider
+          a href="https://www.nitrous.io/app/#/signup?intent=org"  creating an organization.
+    .row
+      .col-xs-12.col-md-6
+        h3 How long can I use my free workstation?
+        p
+          | We prioritize active users’ workstations. If you haven’t used your workstation for 30 days, your workstation and its data will be deleted. We will email you three times before taking any action on an inactive workstation. Paid workstations are never deleted.
+      .col-xs-12.col-md-6
+        h3 Am I charged while my workstation is stopped?
+        p
+          | Yes. The monthly plans offered are a flat rate, so your monthly billing will not vary based off of usage.
+    .row
+      .col-xs-12.col-md-6
+        h3 How am I billed?
+        p
+          | You are billed immediately upon selecting a paid plan, and your billing cycle begins on this date. Your next charge will be on the same or nearest date the following month.
+      .col-xs-12.col-md-6
+        h3 What forms of payment do you accept?
+        p
+          | We accept Visa, MasterCard, American Express, and Discover cards.
+    .row
+      .col-xs-12.col-md-6
+        h3 Am I charged when I enter a credit card?
+        p
+          | Your credit card will be charged for the first month upon signup.
+      .col-xs-12.col-md-6
+        h3 Do you offer refunds?
+        p
+          | We do not offer refunds. If you have had a problem with the service, please
+          a href="mailto:support@nitrous.io" contact our support team.
+
+    p.centered
+      | Have more questions? Please feel free to
+      a href="mailto:support@nitrous.io"  send us a message.
