@@ -79,14 +79,19 @@
         p
           | Stop worrying about setting up your development environment, we'll take care of that for you.
 
-.hero.featurette.full
+.hero.featurette.full.peakaboo
   .container
     h2 Best-in-class Cloud IDE
     h4.subtitle
-      | Multiple layouts, smart auto-complete, live collaboration, and power-tools that will put your desktop code editor to shame.
+      | Intelligent auto-complete, live collaboration, beautiful themes and deployment from your web browser.
 
-    p
-      | <IDE images>
+    .row
+      .col-xs-12.col-md-2.left
+        img.feature src="/images/ide/ide-ft-1.png" width="750px"
+      .col-xs-12.col-md-8.mid
+        img.feature src="/images/ide/ide-ft-2.png" width="750px"
+      .col-xs-12.col-md-2.right
+        img.feature src="/images/ide/ide-ft-3.png" width="750px"
 
 .hero.apps
   .container
