@@ -47,15 +47,4 @@
           | Bessemer Venture Partners (BVP) invests in early-stage and hyper-growth startups, partnering closely with entrepreneurs to build durable businesses. With $4 billion under management, BVP invests anywhere from $100,000 to $75 million in innovative companies like Pinterest, Twilio, Box, LinkedIn, Shopify, Yelp, Skype and Nitrous. Over 100 BVP companies have gone public – in the last three years alone, BVP has had 46 exits (IPO and M&amp;A) and made new investments in more than 85 companies. Learn more at
           a href="http://www.bvp.com/" www.bvp.com
 
-.maps
-  .row
-    .col-xs-12.col-md-6.map
-      .address
-        .address-1 501 2nd street Ste 575
-        .address-2 San Francisco
-      .pin
-    .col-xs-12.col-md-6.map
-      .address
-        .address-1 29A Teo Hong Road
-        .address-2 Singapore
-      .pin
+= partial('partials/map')

@@ -11,34 +11,51 @@
     h4.subtitle
       | Click any of the open positions below to learn more.
 
-    #accordion.panel-group role="tablist" aria-multiselectable="true"
+section.jobs
+  .container
+    .row
+      .col-xs-12.col-md-8
+        #accordion.panel-group role="tablist" aria-multiselectable="true"
+          .panel.panel-default
+            #headingOne.panel-heading role="tab"
+              h4.panel-title
+                a.collapsed.platform-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                  | Platform Engineer
+                  span.location San Francisco - Singapore
+            #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
+              .panel-body
+                = partial('partials/jobs/platform')
 
-      .panel.panel-default
-        #headingOne.panel-heading role="tab"
-          h4.panel-title
-            a.collapsed.platform-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
-              | Platform Engineer
-              span.location San Francisco - Singapore
-        #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
-          .panel-body
-            = partial('partials/jobs/platform')
+          .panel.panel-default
+            #headingTwo.panel-heading role="tab"
+              h4.panel-title
+                a.collapsed.software-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                  | Software Engineer
+                  span.location San Francisco - Singapore
+            #collapseTwo.panel-collapse.collapse role="tabpanel" aria-labelledby="headingTwo"
+              .panel-body
+                = partial('partials/jobs/engineer')
 
-      .panel.panel-default
-        #headingTwo.panel-heading role="tab"
-          h4.panel-title
-            a.collapsed.software-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
-              | Software Engineer
-              span.location San Francisco - Singapore
-        #collapseTwo.panel-collapse.collapse role="tabpanel" aria-labelledby="headingTwo"
-          .panel-body
-            = partial('partials/jobs/engineer')
+          .panel.panel-default
+            #headingThree.panel-heading role="tab"
+              h4.panel-title
+                a.collapsed.devrel.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                  | Developer Evangelist
+                  span.location San Francisco - Remote
+            #collapseThree.panel-collapse.collapse role="tabpanel" aria-labelledby="headingThree"
+              .panel-body
+                = partial('partials/jobs/evangelist')
 
-      .panel.panel-default
-        #headingThree.panel-heading role="tab"
-          h4.panel-title
-            a.collapsed.devrel.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
-              | Developer Evangelist
-              span.location San Francisco - Remote
-        #collapseThree.panel-collapse.collapse role="tabpanel" aria-labelledby="headingThree"
-          .panel-body
-            = partial('partials/jobs/evangelist')
+      .col-xs-12.col-md-3.col-md-offset-1.additional
+        h3 Additional details
+        ul
+          li Competitive salary & equity
+          li Company-covered lunch
+          li Health, Vision & Dental Insurance
+          li Choice of equipment
+          li Flexible vacation
+          li Regular company events
+          li Referral bonuses
+          li SF-Singapore exchange program
+          
+= partial('partials/map')          

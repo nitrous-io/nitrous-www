@@ -1,0 +1,43 @@
+.maps
+  margin: 0
+  .map
+    height: 280px
+    &:first-child
+      background: url('/images/company/map-sf.png') 0 no-repeat
+    &:last-child
+      background: url('/images/company/map-sg.png') 0 no-repeat
+    .address
+      position: relative
+      top: 120px
+      text-align: center
+      .address-1
+        font-size: 22px
+        padding-bottom: 6px
+      .address-2
+        font-size: 18px
+        font-family: $bolderFonts
+  .pin
+    width: 14px
+    height: 14px
+    position: absolute
+    display: block
+    left: 50%
+    top: 50%
+    background: #fff
+    border-radius: 10px
+    border: 3px solid $brandBlue
+    z-index: 2
+    backface-visibility: hidden
+    font-smoothing: subpixel-antialiased
+    text-stroke: 0.35px
+    &:before
+      content: ""
+      width: 72px
+      height: 72px
+      position: absolute
+      top: -32px
+      left: -32px
+      border-radius: 100%
+      background: $brandBlue
+      animation: pulse 2s infinite
+      z-index: 1

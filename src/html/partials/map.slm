@@ -1,0 +1,12 @@
+.maps
+  .row
+    .col-xs-12.col-md-6.map
+      .address
+        .address-1 501 2nd street Ste 575
+        .address-2 San Francisco
+      .pin
+    .col-xs-12.col-md-6.map
+      .address
+        .address-1 29A Teo Hong Road
+        .address-2 Singapore
+      .pin

@@ -1,5 +1,9 @@
-.jobs
+.hero.jobs
+  padding-bottom: 0
+
+section.jobs
   .panel
+    margin-bottom: 1em
     .panel-heading
       h4
         a
@@ -7,11 +11,11 @@
           &:hover, &:active, &:visited
             text-decoration: none
           &.platform-engineer
-            background: url('/images/icons/jobs-engineering.png') left 8px no-repeat;
+            background: url('/images/icons/jobs-engineering.png') left 8px no-repeat
           &.software-engineer
-            background: url('/images/icons/jobs-engineering.png') left 8px no-repeat;
+            background: url('/images/icons/jobs-engineering.png') left 8px no-repeat
           &.devrel
-            background: url('/images/icons/jobs-devrel.png') left 4px no-repeat;
+            background: url('/images/icons/jobs-devrel.png') left 4px no-repeat
           &.with-icon
             padding: 12px 0 12px 48px
             background-size: 28px
@@ -25,8 +29,7 @@
               display: inline-block
               margin: 0 0 0 8px
 
-    .panel-body
-      h3
-        font-size: 16px
-        color: $brandBlue
-        font-weight: bold
+  .panel-body h3, .additional h3
+    font-size: 16px
+    color: $brandBlue
+    font-weight: bold
