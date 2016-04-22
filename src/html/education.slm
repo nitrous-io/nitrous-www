@@ -15,3 +15,64 @@
       | Learn how the Flatiron School uses Nitrous
       a.readmore href="/flatiron"  Read More
       i.fa.fa-chevron-right.blue.small
+
+.hero.featurette
+  .container
+    h2 Manage course material in one beautiful dashboard.
+    h4.subtitle
+      | Nitrous lets you create, administer, share, and snapshot your school's development projects from one convenient and beautiful dashboard.
+    img.feature.full.img-responsive src="/images/dashboard-next-education.png"
+
+.hero.featurette.dual.peakaboo
+  .container
+    .row
+      .col-xs-12.col-md-5
+        h2 Org member Administration
+        h4.subtitle
+          | Quickly add and remove team members, and set their role within the organization.
+      .col-xs-12.col-md-7
+        .full-visual
+          img.feature src="/images/members-next-education.png" width="970px"
+
+.hero.featurette.dual.peakaboo
+  .container
+    .row
+      .col-xs-12.col-md-5
+        h2 Snapshots
+        h4.subtitle
+          | Preserve the state of your project's environment, and revert back to them at any time
+      .col-xs-12.col-md-7
+        .full-visual
+          img.feature src="/images/members-next-education.png" width="970px"
+
+article.blockquote.tealeaf
+  .container
+    .row
+      .col-xs-12.col-md-8.col-md-offset-2
+        blockquote
+          img.blockquote-image src="/images/customers/tealeaf.svg" alt="tealeaf logo"
+          . Nitrous has
+          span.highlight saved us a lot of time
+          . , because its one-click development environment allows our students to
+          span.highlight focus on the most important thing: learning to code.
+          |  Nitrous is all that you need as a developer and nothing more. In other words, when our students use Nitrous, they're learning how to work like a real developer, not learning a proprietary product. The Nitrous development environment is just Unix, and a code editor - that's how real programmers work. We love that about Nitrous.
+
+          .author
+            | Chris Lee,
+            span.bio Co-founder of Tealeaf Academy
+
+article.blockquote.pilot
+  .container
+    .row
+      .col-xs-12.col-md-8.col-md-offset-2
+        blockquote
+          img.blockquote-image src="/images/customers/pilot.png" alt="pilot logo"
+          . We love the
+          span.highlight easy-to-use coding interface
+          .  and the
+          span.highlight amazing collaborative technology
+          .  that Nitrous offers. In the past, we used other code sharing software such as Git and Dropbox, but the live code collaboration Nitrous provides is just awesome. Nitrous definitely increased our productivity a great deal, especially in an overnight event where fatigue catches up with your body and tempers rise quickly if software doesn't cooperate.
+
+          .author
+            | Michael Reininger,
+            span.bio part of the PilotDC hackathon's winning team from Montgomery High
