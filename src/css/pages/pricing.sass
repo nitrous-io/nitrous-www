@@ -3,6 +3,7 @@
 
 .pricing-plans
   padding-top: 0
+  padding-bottom: 20px
   font-family: $regularFonts
   .plan-item
     display: flex
@@ -58,3 +59,27 @@
       .plan-name, .plan-price span, .plan-price small, .plan-desc, .plan-details ul li
         color: #fff
       a.btn
+
+.all-plans
+  text-align: center
+  padding-bottom: 84px
+  border-bottom: 1px solid $nitrousGrey4
+  font-size: 15px
+  font-weight: 300
+  text-align: justify
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: $screen-sm-min)
+    text-align: center
+
+  h5
+    text-align: center
+    font-size: 16px
+    font-weight: 500
+    margin-bottom: 24px
+    font-family: $bolderFonts
+
+  i.fa-check
+    margin-right: 5px
+    &.green
+      color: $limeGreen
+

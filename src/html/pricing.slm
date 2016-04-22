@@ -26,7 +26,7 @@
                 | 50 hrs / mo. usage
 
           .plan-action
-            a.btn.btn-basic.caps
+            a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=free"
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -47,7 +47,7 @@
               li
                 | 50 hrs / mo. usage
           .plan-action
-            a.btn.btn-basic.caps
+            a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=basic"
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -70,7 +70,7 @@
               li Always ON
 
           .plan-action
-            a.btn.btn-default.caps
+            a.btn.btn-default.caps href="https://www.nitrous.io/app/#/signup?plan=standard"
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -94,8 +94,33 @@
               li Always ON
 
           .plan-action
-            a.btn.btn-basic.caps
+            a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=professional"
               | Sign Up
+
+section.all-plans
+  .container
+    h5 All plans come with
+
+    .row
+      .col-xs-6.col-md-2
+        i.fa.fa-check.green
+        | Root Access
+      .col-xs-6.col-md-2
+        i.fa.fa-check.green
+        | Dedicated Machine
+      .col-xs-6.col-md-2
+        i.fa.fa-check.green
+        | Add Collaborators
+      .col-xs-6.col-md-2
+        i.fa.fa-check.green
+        | SSH Access
+      .col-xs-6.col-md-2
+        i.fa.fa-check.green
+        | Docker Support
+      .col-xs-6.col-md-2
+        i.fa.fa-check.green
+        | Desktop File Sync
+
 
 .hero.education-pricing.centered
   .container
