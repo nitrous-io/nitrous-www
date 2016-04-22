@@ -36,13 +36,14 @@
     border-top: 1px solid lighten($nitrousGrey4, 5%)
 
   &.featurette
+    padding: 84px 0
     img
       border-radius: $borderRadius
       box-shadow: $boxShadowFull
     &.peakaboo
       border-bottom: 1px solid $nitrousGrey4
       overflow: hidden
-      height: 400px
+      height: 480px
 
     &.dual
       h2, h4
@@ -50,3 +51,8 @@
         @media (min-width: $screen-sm-min)
           text-align: left
           width: 100%
+
+  &.left
+    img
+      position: relative
+      left: -380px

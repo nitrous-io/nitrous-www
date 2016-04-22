@@ -32,15 +32,15 @@ footer
         li
           a href="/agencies" Agencies
         li
-          a href="/orgs"
-            | Orgs
-            span.label.label-primary New
+          a href="/orgs" Orgs
         li
           a href="/quickstarts"
             | Quickstarts
             span.label.label-primary New
         li
-          a href="/vpc" VPC
+          a href="/pubstorm"
+            | PubStorm
+            span.label.label-primary New
     .col-md-2
       h4 Resources
       ul

@@ -10,72 +10,74 @@
   .container
     .flex-list
       .flex-item
-        h4.terminal Built-in Terminal
+        h4.terminal.with-icon Built-in Terminal
         p
           | Install libraries, manage dependencies and execute scripts in your project with terminal and full root access.
 
       .flex-item
-        h4.collab Collaboration
+        h4.collab.with-icon Collaboration
         p
           | Code collaboratively in real-time. Get help from a friend or co-worker, and code directly on the same machine in the cloud.
 
       .flex-item
-        h4.github GitHub Integration
+        h4.github.with-icon GitHub Integration
         p
           | Connect your GitHub account, pull repos, push code, and stay productive wherever you are.
 
       .flex-item
-        h4.snapshots Snapshots
+        h4.snapshots.with-icon Snapshots
         p
           | Take snapshots to preserve the state of your project's environment, and revert back to them at any time.
 
       .flex-item
-        h4.docker Powered by Docker
+        h4.docker.with-icon Powered by Docker
         p
           | Create & develop on multiple projects within a workstation, or create custom project using Docker images.
 
       .flex-item
-        h4.ide Powerful Web IDE
+        h4.ide.with-icon Powerful Web IDE
         p
           | Edit code from any modern web browser. Split screen editing, go-to-file, powerful search, themes and file upload functionality.
 
       .flex-item
-        h4.ssl SSL Data Encryption
+        h4.ssl.with-icon SSL Data Encryption
         p
           | All of your information is encrypted and transmitted securely using the Secure Sockets Layer (SSL) protocol.
 
       .flex-item
-        h4.backup Backup & Redundancy
+        h4.backup.with-icon Backup & Redundancy
         p
           | Never worry about losing your work because of a coffee spill or stolen laptop. Your projects are in the cloud, in military-grade secure facilities.
 
       .flex-item
-        h4.data Dedicated Cloud Machines
+        h4.data.with-icon Dedicated Cloud Machines
         p
           | Every user operates within their own isolated environment and cannot interact with other applications or areas of the system.
 
 
-.hero.featurette
+.hero.featurette.dual.peakaboo
   .container
     .row
-      .col-xs-12.col-md-6
+      .col-xs-12.col-md-5
         h2 Self-service Dashboard
         p
           | Easily create and manage new projects, or load your own using Docker images.
         p
           | Access your app's public preview or SSH URLs, and invite others to collaborate on your project.
-      .col-xs-12.col-md-6
-        <image here>
+      .col-xs-12.col-md-7
+        img.feature src="/images/dashboard-next-features.png" width="970px"
 
-.hero.featurette
+.hero.featurette.dual.peakaboo.left
   .container
     .row
-      .col-xs-12.col-md-6
-        <image here>
-      .col-xs-12.col-md-6
-        h2 Collaboration
+      .col-xs-12.col-md-7
+        img.feature src="/images/dashboard-next-home.png" width="970px"
+      .col-xs-12.col-md-5
+        h2 Starter Templates
         p
-          | blah blah collaborate stuff
+          | Nitrous projects come with a set of pre-installed tools, libraries, and frameworks to get you coding fast.
+        p
+          | Stop worrying about setting up your development environment, we'll take care of that for you.
 
 .hero.featurette.full
   .container
@@ -88,30 +90,30 @@
 
 .hero.apps
   .container
-    .col-xs-12.col-md-6
-      h4.nitrogen
+    .col-xs-12.col-md-5
+      h3.nitrogen.with-icon
         | Nitrogen Plugin for Atom
 
-      h6 Manage your cloud environments
+      h4 Manage your cloud environments
       p
         | Nitrogen (available for Windows, OS X, and Linux) lets you manage your Nitrous projects running in the cloud.
 
-      h6 Sync files, use your favorite editor
+      h4 Sync files, use your favorite editor
       p
         | Sync files between Nitrous and desktop computer, allowing you to edit files using Atom or your text editor of choice.
 
-      a.btn.btn-primary.with-icon.nitrogen-browser
+      a.btn.btn-primary.with-icon.nitrogen-apple
         | Install Nitrogen
 
-    .col-xs-12.col-md-6
-      h4.chrome
+    .col-xs-12.col-md-5.col-md-offset-1
+      h3.chrome.with-icon
         | Nitrogen Chrome App
 
-      h6 Great for Chromebooks
+      h4 Great for Chromebooks
       p
         | Written from scratch with performance in mind, Nitrous for Chrome will profoundly enhance your coding experience, whichever device you use.
 
-      h6 Native Keyboard Shortcuts
+      h4 Native Keyboard Shortcuts
       p
         | Nitrous for Chrome takes advantage of the freedom offered by Chrome apps, and provides a "native-like" coding experience. Learn more.
 

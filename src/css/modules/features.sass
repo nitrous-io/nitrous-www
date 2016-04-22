@@ -1,0 +1,76 @@
+.hero.features
+  padding-bottom: 0
+
+.features-list
+  border-bottom: 1px solid $nitrousGrey4
+  .flex-item
+    background: transparent
+    h4
+      font-family: $bolderFonts
+      margin-bottom: 20px
+
+      &.with-icon
+        padding-left: 42px
+        line-height: 32px
+        background: transparent url('/images/icons/small-featurettes.png') 0 0 no-repeat
+        background-size: 32px 384px
+
+        &.terminal
+          background-position: 0 0
+        &.collab
+          background-position: 0 -96px
+        &.github
+          background-position: 0 -128px
+        &.snapshots
+          background-position: 0 -160px
+        &.ide
+          background-position: 0 -32px
+        &.ssl
+          background-position: 0 -288px
+        &.backup
+          background-position: 0 -320px
+        &.data
+          background-position: 0 -352px
+
+    p
+     font-size: 16px
+     font-weight: 300
+
+.apps
+  h3
+    font-size: 26px
+    line-height: 44px
+    padding-bottom: 20px
+    &.with-icon
+      padding-left: 58px
+    &.nitrogen
+      background: url('/images/icons/nitrous-desktop-icon.png') 0 0 no-repeat
+      background-size: 44px 44px
+    &.chrome
+      background: url('/images/icons/chrome-icon-128.png') 0 0 no-repeat
+      background-size: 44px 44px
+
+  p
+    font-weight: 300
+    line-height: 24px
+
+  h4
+    font-family: $bolderFonts
+    font-size: 14px
+    font-weight: 400
+    padding: 0 0 6px 0
+
+  a.btn
+    text-transform: capitalize
+    margin-top: 8px
+    &.with-icon
+      padding: 10px 20px 10px 38px
+      line-height: 22px
+    &.nitrogen-apple
+      background: $brandBlue url('/images/icons/download-btns.png') 0 0 no-repeat
+      background-position: 4px -123px
+      background-size: 32px 256px
+    &.chrome
+      background: $brandBlue url('/images/icons/download-btns.png') 0 0 no-repeat
+      background-position: 4px -187px
+      background-size: 32px 256px
