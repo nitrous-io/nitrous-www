@@ -42,12 +42,13 @@ article.blockquote.rails
     .row
       .col-xs-12.col-md-8.col-md-offset-2
         blockquote
-          | I know how to administer a computer well enough. &nbsp;
-          span.highlight But I don't want to.
-          |  Nitrous allows me to say "I want to code some Rails now, kthx" and not have to worry about getting the details. Sometimes, I care about the details, but most of the time, I don't.
+          img.blockquote-image src="/images/customers/klabnik.png" alt="klabnik logo"
+          . I know how to administer a computer well enough,
+          span.highlight but I don't want to.
+          |  Nitrous allows me to say "I want to code some Rails now, kthx" and not have to worry about getting the details right every time. Sometimes, I care about the details, but most of the time, I don't.
 
           .author
-            | Steve Klabnik
+            | Steve Klabnik,
             span.bio Rails Core Committer & prolific Open Source contributor
 
 article.blockquote.wilsonsmith
@@ -55,14 +56,15 @@ article.blockquote.wilsonsmith
     .row
       .col-xs-12.col-md-8.col-md-offset-2
         blockquote
-          | I love the vision. It has been prophesied by the forefathers of UNIX that a day would come in which our computers would simply be a piece of glass connected to some computer on the network.
-          span.highlight  Nitrous is making that dream a reality.
-          | Practically speaking, the feature that captivates my attention is that I have
-          span.highlight  easy SSH access to a Linux machine that someone else is maintaining.
-          | Among all of my responsibilities, personal system administration is something that I am keen on delegating. If I never have to worry about keeping a machine online and its state secured, then I will be winning.
+          img.blockquote-image src="/images/customers/wilsonsmith.svg" alt="wilsonsmith logo"
+          . I love the vision. It has been prophesied by the forefathers of UNIX that a day would come in which our computers would simply be a piece of glass connected to some computer on the network.
+          span.highlight Nitrous is making that dream a reality.
+          .  Practically speaking, the feature that captivates my attention is that I have
+          span.highlight easy SSH access to a Linux machine that someone else is maintaining.
+          |  Among all of my responsibilities, personal system administration is something that I am keen on delegating. If I never have to worry about keeping a machine online and its state secured, then I will be winning.
 
           .author
             | Ryan Smith
-            span.bio CTO, Chain.com
+            span.bio Partner, Wilson &amp; Smith Consulting
 
 = partial('partials/cta')
