@@ -1,9 +1,9 @@
 .hero
   padding: 60px 0
-  
+
   &.centered
     text-align: center
-    
+
   &.main
     background: $brandBlue
     h2
@@ -17,7 +17,7 @@
 
   h2
     font-size: 30px
-    line-height: 38px
+    line-height: 40px
     text-align: center
     padding-bottom: 10px
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
@@ -25,12 +25,28 @@
   h4.subtitle
     text-align: center
     color: $nitrousGrey
-    font-size: 18px
-    line-height: 26px
+    font-size: 16px
+    line-height: 28px
     font-weight: 300
-    padding-bottom: 40px
+    padding-bottom: 32px
     margin: 0 auto
     width: 67%
 
   &.cta
     border-top: 1px solid lighten($nitrousGrey4, 5%)
+
+  &.featurette
+    img
+      border-radius: $borderRadius
+      box-shadow: $boxShadowFull
+    &.peakaboo
+      border-bottom: 1px solid $nitrousGrey4
+      overflow: hidden
+      height: 400px
+
+    &.dual
+      h2, h4
+        /* Small devices (tablets, 768px and up) */
+        @media (min-width: $screen-sm-min)
+          text-align: left
+          width: 100%

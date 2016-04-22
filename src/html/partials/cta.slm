@@ -1,4 +1,4 @@
-.hero.cta
+.hero.cta.centered
   .container
     h2 Start coding in the cloud today
     h4.subtitle

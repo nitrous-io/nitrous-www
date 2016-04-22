@@ -1,0 +1,68 @@
+= extend('layout')
+
+.hero.main.centered
+  .container
+    h2 Manage Multiple Projects with Ease
+    h4.subtitle Consistent development environments, and lightning fast static site hosting using Nitrous PubStorm.
+
+    a.btn.btn-lg.btn-default href="#"
+      | Get Started for Free
+
+.hero.featurette
+  .container
+    h2 All your client projects, in one place
+    h4.subtitle
+      | Create isolated, shareable development environments for each of your projects.
+    img.feature.full.img-responsive src="/images/dashboard-next-agencies.png"
+
+.hero.featurette.dual.peakaboo
+  .container
+    .row
+      .col-xs-12.col-md-5
+        h2 Snapshot
+        h4.subtitle
+          | Preserve the state of your project's environment, and revert back to them at any time
+      .col-xs-12.col-md-7
+        .full-visual
+          img.feature src="/images/snapshots-next-agencies.png" width="970px"
+
+.hero.featurette.dual.peakaboo
+  .container
+    .row
+      .col-xs-12.col-md-5
+        h2 Manage Team Members
+        h4.subtitle
+          | Quickly add and remove team members, set project access and more.
+
+      .col-xs-12.col-md-7
+        img.feature src="/images/members-next-agencies.png" width="970px"
+
+article.blockquote.rails
+  .container
+    .row
+      .col-xs-12.col-md-8.col-md-offset-2
+        blockquote
+          | I know how to administer a computer well enough. &nbsp;
+          span.highlight But I don't want to.
+          |  Nitrous allows me to say "I want to code some Rails now, kthx" and not have to worry about getting the details. Sometimes, I care about the details, but most of the time, I don't.
+
+          .author
+            | Steve Klabnik
+            span.bio Rails Core Committer & prolific Open Source contributor
+
+article.blockquote.wilsonsmith
+  .container
+    .row
+      .col-xs-12.col-md-8.col-md-offset-2
+        blockquote
+          | I love the vision. It has been prophesied by the forefathers of UNIX that a day would come in which our computers would simply be a piece of glass connected to some computer on the network.
+          span.highlight  Nitrous is making that dream a reality.
+          | Practically speaking, the feature that captivates my attention is that I have
+          span.highlight  easy SSH access to a Linux machine that someone else is maintaining.
+          | Among all of my responsibilities, personal system administration is something that I am keen on delegating. If I never have to worry about keeping a machine online and its state secured, then I will be winning.
+
+          .author
+            | Ryan Smith
+            span.bio CTO, Chain.com
+
+= partial('partials/cta')
