@@ -1,0 +1,31 @@
+= extend('layout')
+
+.hero.main.centered
+  .container
+    h2 Flatiron + Nitrous
+    h4.subtitle Learn how the Flatiron School in NYC is using Nitrous
+
+.hero.featurette.video
+  .container
+    .row
+      .col-xs-12.col-md-9.col-md-offset-2
+        .embed-responsive.embed-responsive-16by9
+          iframe.img-responsive src="https://player.vimeo.com/video/134506627" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+
+article.blockquote.flatiron
+  .container
+    .row
+      .col-xs-12.col-md-8.col-md-offset-2
+        blockquote
+          p
+            . Flatiron uses Nitrous as the cloud-coding platform in its Pre-College Academy courses, designed to start students on a path to becoming professional software developers.
+            span.highlight Nitrous removes administrative and IT burdens,
+            | so that teachers and instructors can focus on providing the best quality of education and meeting specific students' needs
+
+          p
+            . The key to Flatiron's selection of Nitrous is the
+            span.highlight collaboration features
+            | that allow instructors and students to work Google-docs style on the same code in real-time. Using Nitrous, students can request coaching from both the local instructor and other Flatiron instructors who are remote, solving problems together and amongst the class using pair-programming techniques.
+
+        a.btn.btn-default.caps
+          | Register Interest
