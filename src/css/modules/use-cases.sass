@@ -1,16 +1,22 @@
 section#use-cases
   a.flex-item
     min-height: 200px
-    border: 2px solid $brandBlue
+    border: 2px solid #fff
+    text-align: center
+    border-radius: $borderRadius
+    img
+      height: 72px
     &:hover
-      border-color: darken($brandBlue, 20%)
+      border-color: $brandBlue
     h4, p
-      color: #fff
+      color: $nitrousDark
+    h4
+      margin-top: 1.5em
+    p
+      color: $nitrousDark4
+
   .education
-    background: url('/images/education-hero.jpg') 0 50% no-repeat
   .remote
-    background: url('/images/teams-hero.jpg') 0 50% no-repeat
   .agencies
-    background: url('/images/agencies-hero.jpg') 0 50% no-repeat
   .education, .remote, .agencies
     background-size: cover

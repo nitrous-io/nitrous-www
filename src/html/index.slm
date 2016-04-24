@@ -21,10 +21,10 @@ section.hero#quickstarts
   .container
     h2 Start Coding Now with Nitrous Quickstarts
     h4.subtitle
-      | Create custom environment templates from any GitHub project by defining your project setup in
+      . Create custom templates from any GitHub project by defining your project setup in
       code
-        a href="#" nitrous.json
-    ul.flex-list.quickstarts
+        a href="https://community.nitrous.io/docs/nitrous-quickstarts" target="_blank" nitrous.json
+    .flex-list.quickstarts
       a.flex-item href="#"
         .logo
           img src="/images/stacks/rails.png"
@@ -74,7 +74,8 @@ section.hero#quickstarts
           h4 Golang
           p.desc A sample Go 1.6.1 project running on Ubuntu.
       a.flex-item.see-more href="/quickstarts"
-        | See more Quickstart templates &raquo;
+        p
+          | See more Quickstart templates &raquo;
 
     .more-info
       .text
@@ -85,18 +86,21 @@ section.hero#quickstarts
 
 section.hero#use-cases
   .container
-    h2 Solutions for Education, Teams & Agencies.
+    h2 Solutions for Education, Dev Teams & Agencies.
     h4.subtitle
       | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
     .flex-list
-      a.flex-item.education
+      a.flex-item.education href="/education"
+        img src="/images/icons/education.png"
         h4 Education
-        p Educational API and contact button
-      a.flex-item.remote
+        p Students start coding faster than ever. Zero setup, work from any web browser.
+      a.flex-item.remote href="/orgs"
+        img src="/images/icons/remote.png"
         h4 Remote Teams
-        p Remote teams orgs page link
-      a.flex-item.agencies
+        p Centralized billing and team management, snapshots and live collaboration.
+      a.flex-item.agencies href="/agencies"
+        img src="/images/icons/agency.png"
         h4 Agencies
-        p Agencies static sites hosting
+        p Consistent development environments and lightning fast static site hosting with Nitrous PubStorm.
 
 = partial('partials/cta')

@@ -24,7 +24,7 @@
           | Preserve the state of your project's environment, and revert back to them at any time
       .col-xs-12.col-md-7
         .full-visual
-          img.feature src="/images/snapshots-next-agencies.png" width="970px"
+          img.feature.img-responsive src="/images/snapshots-next-agencies.png" width="970px"
 
 .hero.featurette.dual.peakaboo
   .container
@@ -35,7 +35,7 @@
           | Quickly add and remove team members, set project access and more.
 
       .col-xs-12.col-md-7
-        img.feature src="/images/members-next-agencies.png" width="970px"
+        img.feature.img-responsive src="/images/members-next-agencies.png" width="970px"
 
 article.blockquote.rails
   .container

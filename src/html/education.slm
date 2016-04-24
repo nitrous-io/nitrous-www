@@ -32,7 +32,7 @@
           | Quickly add and remove team members, and set their role within the organization.
       .col-xs-12.col-md-7
         .full-visual
-          img.feature src="/images/members-next-education.png" width="970px"
+          img.feature.img-responsive src="/images/members-next-education.png" width="970px"
 
 .hero.featurette.dual.peakaboo
   .container
@@ -43,7 +43,7 @@
           | Preserve the state of your project's environment, and revert back to them at any time
       .col-xs-12.col-md-7
         .full-visual
-          img.feature src="/images/members-next-education.png" width="970px"
+          img.feature.img-responsive src="/images/members-next-education.png" width="970px"
 
 article.blockquote.tealeaf
   .container
