@@ -121,13 +121,20 @@ section.all-plans
         i.fa.fa-check.green
         | Desktop File Sync
 
+.container
+  .more-info
+    .text
+      strong Organization Pricing.
+      |  Org pricing starts at 2 x $39 professional workstations per monnth.
+    .action
+      a.btn.btn-primary href="https://www.nitrous.io/app/#/signup?intent=org" Create an Organization
 
 .hero.education-pricing.centered
   .container
     h2 Nitrous Education Platform
     h4.subtitle A powerful API to power your course templates and student workstations.
 
-    a.btn.btn-primary
+    a.btn.btn-primary href="mailto:hello@nitrous.io?subject=API%20Pricing%20Inquiry"
       | Contact for pricing
 
 = partial('partials/faq')

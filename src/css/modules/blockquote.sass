@@ -22,6 +22,8 @@ article.blockquote
       background: rgba(0,0,0,0.06)
       padding: 2px 0
       font-weight: normal
+    p
+      line-height: 32px
 
     .author
       margin-top: 16px
@@ -30,3 +32,21 @@ article.blockquote
         color: rgba(255,255,255,0.7)
         font-style: italic
         font-weight: 200
+
+  &.nitrous-quote
+    background: $brandBlue
+    color: #fff
+    p
+      text-indent: 56px
+      font-size: 25px
+      line-height: 42px
+      &:before
+        content: "“"
+        position: absolute
+        display: block
+        color: rgba(255, 255, 255, 0.4)
+        font-family: "georgia", serif
+        font-weight: bold
+        top: 14px
+        left: -58px
+        font-size: 80px

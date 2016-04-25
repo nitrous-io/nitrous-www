@@ -9,7 +9,7 @@
   .container
     p
       span.label.label-primary We're Hiring
-      | Come change the way the world codes. 
+      | Come change the way the world codes.
       a href="/jobs"  Check out our open positons
       i.fa.fa-chevron-right.blue
 
@@ -22,22 +22,22 @@
       li data-toggle="tooltip" title="Scott has a deep knowledge of platforms and cloud computing with three successful startup exits - one in excess of $1b. He has managed teams at Microsoft, Salesforce and VMWare."
         img alt="Scott Collison" src="/images/company/collison.png"
 
-      li data-toggle="tooltip" title="AJ loves baseball, surfing, and networked home appliances. He studied economics at Harvard and is obsessed with microformats"
+      li data-toggle="tooltip" title="AJ loves baseball, surfing, and networked home appliances. He studied economics at Harvard and is obsessed with microformats."
         img alt="AJ" src="/images/company/solimine.png"
 
-      li data-toggle="tooltip" title="Pete started programming at the age of 8, when most kids were still picking their nose. He likes cycling and playing airsoft games"
+      li data-toggle="tooltip" title="Pete started programming at the age of 8, when most kids were still picking their nose. He likes cycling and playing airsoft games."
         img alt="Pete" src="/images/company/pete.png"
 
-      li data-toggle="tooltip" title="Nicole is the glue that holds it all together at Nitrous. She enjoys designing clothes, animals of all kinds, and reading great books"
+      li data-toggle="tooltip" title="Nicole is the glue that holds it all together at Nitrous. She enjoys designing clothes, animals of all kinds, and reading great books."
         img alt="Nicole" src="/images/company/nicole.png"
 
-      li data-toggle="tooltip" title="Chu Yeow likes: Miyo (his tortoiseshell cat), Japan, anime. Dislikes: trailing whitespace, tabs"
+      li data-toggle="tooltip" title="Chu Yeow likes: Miyo (his tortoiseshell cat), Japan, anime. Dislikes: trailing whitespace, tabs."
         img alt="Chu Yeow" src="/images/company/cheah.png"
 
-      li data-toggle="tooltip" title="Sunjin is a Level 90 Pandaren Ale-Drinker at Nitrous. He is able to code for multiple days without sleep as long as there is an uninterrupted supply of beer"
+      li data-toggle="tooltip" title="Sunjin is a Level 90 Pandaren Ale-Drinker at Nitrous. He is able to code for multiple days without sleep as long as there is an uninterrupted supply of beer."
         img alt="Sunjin" src="/images/company/sunjin.png"
 
-      li data-toggle="tooltip" title="Javier is an avid cyclist who likes to spin up servers and watch them run in graphs and metrics"
+      li data-toggle="tooltip" title="Javier is an avid cyclist who likes to spin up servers and watch them run in graphs and metrics."
         img alt="Javier" src="/images/company/javier.png"
 
       li data-toggle="tooltip" title="This is YC. YC writes code in cloud. YC uses Nitrous. YC is smart. Be like YC."

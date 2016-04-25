@@ -8,14 +8,14 @@
 .hero.featurette.video
   .container
     .row
-      .col-xs-12.col-md-9.col-md-offset-2
+      .col-xs-12.col-md-10.col-md-offset-1
         .embed-responsive.embed-responsive-16by9
           iframe.img-responsive src="https://player.vimeo.com/video/134506627" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
 
 article.blockquote.flatiron
   .container
     .row
-      .col-xs-12.col-md-8.col-md-offset-2
+      .col-xs-12.col-md-10.col-md-offset-1
         blockquote
           p
             . Flatiron uses Nitrous as the cloud-coding platform in its Pre-College Academy courses, designed to start students on a path to becoming professional software developers.
@@ -27,5 +27,31 @@ article.blockquote.flatiron
             span.highlight collaboration features
             | that allow instructors and students to work Google-docs style on the same code in real-time. Using Nitrous, students can request coaching from both the local instructor and other Flatiron instructors who are remote, solving problems together and amongst the class using pair-programming techniques.
 
-        a.btn.btn-default.caps
-          | Register Interest
+          p.centered
+            a.btn.btn-basic.caps.centered
+              | Register Interest
+
+article.blockquote.nitrous-quote
+  .container
+    .row
+      .col-xs-12.col-md-12
+        blockquote
+          p
+            | Nitrous allows Flatiron's students to have the flexibility of using any device: Windows, Mac, Linux or Chromebook — so they can begin coding from day one.
+
+          .author
+            | Avi Flombaum,
+            span.bio Dean & Co-founder, The Flatiron School
+
+.hero.featurette
+  .container
+    .row
+      .col-xs-12.col-md-7
+        .embed-responsive.embed-responsive-16by9
+          iframe.img-responsive src="https://player.vimeo.com/video/134121453" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+      .col-xs-12.col-md-5
+        p
+          | Using the Nitrous API platform, the Flatiron School is able to set up coding environments for thousands of students on a variety of devices all from their own "Learn" platform.
+        p
+          | The provisioning of coding environments integrates students into the onboarding process, so that teachers can focus on students instead of machines. Students select the course from the Learn platform, click on the Nitrous button and are instantly placed into the Nitrous coding environment.
+

@@ -82,7 +82,7 @@ section.hero#quickstarts
         strong Custom Quickstarts.
         |  Want to create a custom Quickstart from your own GitHub Repo?
       .action
-        a.btn.btn-lg.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
+        a.btn.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
 
 section.hero#use-cases
   .container

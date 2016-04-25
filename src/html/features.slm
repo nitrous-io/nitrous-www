@@ -107,7 +107,7 @@
       p
         | Sync files between Nitrous and desktop computer, allowing you to edit files using Atom or your text editor of choice.
 
-      a.btn.btn-primary.with-icon.nitrogen-apple
+      a.btn.btn-primary.with-icon.nitrogen-apple href="https://community.nitrous.io/docs/installing-the-nitrogen-atom-plugin-d9a97d12-b6ab-4ad2-b219-45f05451d692" target="_blank"
         | Install Nitrogen
 
     .col-xs-12.col-md-5.col-md-offset-1
@@ -122,7 +122,7 @@
       p
         | Nitrous for Chrome takes advantage of the freedom offered by Chrome apps, and provides a "native-like" coding experience. Learn more.
 
-      a.btn.btn-primary.with-icon.chrome
+      a.btn.btn-primary.with-icon.chrome href="https://chrome.google.com/webstore/detail/nitrous/efdcneeepllhjlbejkfnaolelbpdacai?hl=en" target="_blank"
         | Chrome Web Store
 
 = partial('partials/cta')
