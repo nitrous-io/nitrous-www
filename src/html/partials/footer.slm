@@ -19,8 +19,6 @@ footer
         li
           a href="/jobs" Jobs
         li
-          a href="/press" Press
-        li
           a href="https://community.nitrous.io/blog/" Blog
     .col-md-2
       h4 Use Cases
@@ -31,8 +29,6 @@ footer
           a href="/education" Education
         li
           a href="/agencies" Agencies
-        li
-          a href="/orgs" Orgs
         li
           a href="/quickstarts"
             | Quickstarts
@@ -47,22 +43,22 @@ footer
         li
           a href="https://community.nitrous.io/docs" Documentation
         li
-          a href="#" Getting Started
+          a href="https://community.nitrous.io/docs/setup-a-dev-environment" Getting Started
         li
-          a href="#" Using GitHub
+          a href="https://community.nitrous.io/docs/connect-to-github" Using GitHub
         li
-          a href="#" Creating Quickstarts
+          a href="https://community.nitrous.io/docs/nitrous-quickstarts" Creating Quickstarts
         li
-          a href="/pricing" Tutorials
+          a href="https://community.nitrous.io/tutorials" Tutorials
     .col-md-2
       h4 Company
       ul
         li
-          a href="#" Privacy
+          a href="https://community.nitrous.io/docs/privacy-policy" Privacy
         li
-          a href="#" Terms of Service
+          a href="https://community.nitrous.io/docs/terms-of-use" Terms of Service
         li
-          a href="#" Security
+          a href="https://community.nitrous.io/docs/security-on-nitrous" Security
         li
           a href="https://status.nitrous.io" Status
 
