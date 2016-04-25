@@ -5,7 +5,7 @@
     h2 Manage Multiple Projects with Ease
     h4.subtitle Consistent development environments, and lightning fast static site hosting using Nitrous PubStorm.
 
-    a.btn.btn-lg.btn-default href="#"
+    a.btn.btn-lg.btn-default href="https://www.nitrous.io/app/#/signup"
       | Get Started for Free
 
 .hero.featurette

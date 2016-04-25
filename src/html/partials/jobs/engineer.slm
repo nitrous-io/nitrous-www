@@ -34,3 +34,6 @@ ul
   li Resume
   li Github Profile
   li Links to side/hobby projects that you have built
+
+a.btn.btn-basic href="mailto:jobs@nitrous.io?subject=Software%20Engineer"
+  | Apply for this position

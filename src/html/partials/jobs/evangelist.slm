@@ -6,7 +6,7 @@ p We are looking for developer evangelists with boundless energy who love travel
 
 h3 Responsibilities
 
-ul 
+ul
   li Giving talks and demos of new Nitrous features at conferences
   li Writing Call for Papers and Abstracts to submit to developer conferences
   li Traveling to conferences and representing the company
@@ -15,11 +15,11 @@ ul
 
 h3 Requirements
 
-ul 
+ul
   li Excellent written and verbal communication skills
   li Experience with public speaking, specifically on technical topics
   li Experience demoing technical products in front of large audiences
-  
+
 p To apply, please provide the following:
 
 ul
@@ -27,3 +27,6 @@ ul
   li Links to blog and/or videos of talks
   li Links to community profiles like Twitter, Hacker News, Stack Overflow, Reddit, etc...
   li Why you want to change development
+
+a.btn.btn-basic href="mailto:jobs@nitrous.io?subject=Dev%20Evangelist"
+  | Apply for this position
