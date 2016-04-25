@@ -1,0 +1,8 @@
+.hero.cta.centered
+  .container
+    h2 Publish your Free Website Today
+    h4.subtitle
+      | Deploy HTML5 websites and static web apps to a superfast global CDN with custom domains in seconds.
+
+    a.btn.btn-primary href="http://www.pubstorm.com/" target="_blank"
+      | Get Started For Free
