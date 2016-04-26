@@ -1,0 +1,59 @@
+= extend('layout')
+
+.hero.main.centered.notice-after
+  .container
+    h2 Nitrous Orgs
+    h4.subtitle Securely manage and administer your team's development environments
+
+    a.btn.btn-lg.btn-default href="https://www.nitrous.io/app/#/signup?intent=org"
+      | Create an Organization
+
+.notice
+  .container
+    p
+      span.label.label-primary Orgs
+      | Nitrous Orgs offers the security, control and support your engineering organization needs
+
+.hero.featurette.dual.peakaboo
+  .container
+    .row
+      .col-xs-12.col-md-4
+        h2 Centralized Billing
+        h4.subtitle
+          | Nitrous Orgs brings you simplified billing for your team. The Org owner handles billing for all users.
+      .col-xs-12.col-md-8
+        img.feature.full.img-responsive src="/images/billing-next-org.png"
+
+.hero.featurette.dual.peakaboo
+  .container
+    .row
+      .col-xs-12.col-md-4
+        h2 Org member Administration
+        h4.subtitle
+          | Quickly add and remove team members, and set their role within the organization.
+      .col-xs-12.col-md-8
+        .full-visual
+          img.feature.img-responsive src="/images/members-next-org.png" width="970px"
+
+article.blockquote.nitrous-quote
+  .container
+    .row
+      .col-xs-12.col-md-12
+        blockquote
+          p
+            . Many companies — including Heroku — have attempted to move development to the cloud.
+            span.highlight Nitrous is the first solution that doesn't feel like a toy.
+            |  I can use it to get work done, today.
+
+          .author
+            | Max Schoening,
+            span.bio Software Designer at Heroku
+
+.hero.featurette
+  .container
+    h2 All your team's projects, in one place
+    h4.subtitle
+      | Nitrous Orgs lets you create, administer, share, and snapshot your team's development projects from one convenient place
+    img.feature.full.img-responsive src="/images/dashboard-next-org.png"
+
+= partial('partials/cta')
