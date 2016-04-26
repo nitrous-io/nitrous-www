@@ -13,8 +13,6 @@ header
       #navbar-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav.navbar-right
           li
-            a href='#' Products
-          li
             a href='/pricing' Pricing
           li
             a href='https://community.nitrous.io' Community

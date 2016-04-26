@@ -25,49 +25,49 @@ section.hero#quickstarts
       code
         a href="https://community.nitrous.io/docs/nitrous-quickstarts" target="_blank" nitrous.json
     .flex-list.quickstarts
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-rails"
         .logo
           img src="/images/stacks/rails.png"
         .meta
           h4 Ruby on Rails
           p.desc Rails4 with ruby, postgres and redis pre-installed.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-jekyll"
         .logo
           img src="/images/stacks/jekyll.png"
         .meta
           h4 Jekyll
           p.desc Ruby and Jekyll installed and ready to start coding.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-wordpress"
         .logo
           img src="/images/stacks/wordpress.png"
         .meta
           h4 Wordpress
           p.desc Standard Wordpress install with PHP, MySQL and Apache server.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-html5"
         .logo
           img src="/images/stacks/html5.png"
         .meta
           h4 HTML5
           p.desc A solid HTML5 skeleton start static or dynamic frontend apps.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-php-apache"
         .logo
           img src="/images/stacks/php.png"
         .meta
           h4 PHP
           p.desc Standard PHP, MySQL and Apache template on Ubuntu.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-python"
         .logo
           img src="/images/stacks/python.png"
         .meta
           h4 Python
           p.desc Python, Redis, and some other goodies.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-nodejs"
         .logo
           img src="/images/stacks/nodejs.png"
         .meta
           h4 NodeJS
           p.desc Standard NodeJS Repo. Ready to rumble.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-golang"
         .logo
           img src="/images/stacks/golang.png"
         .meta
