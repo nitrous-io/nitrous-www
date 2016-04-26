@@ -56,4 +56,5 @@ article.blockquote.nitrous-quote
       | Nitrous Orgs lets you create, administer, share, and snapshot your team's development projects from one convenient place
     img.feature.full.img-responsive src="/images/dashboard-next-org.png"
 
+= partial('partials/datasheet')
 = partial('partials/cta')

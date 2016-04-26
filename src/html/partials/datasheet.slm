@@ -1,0 +1,9 @@
+.container
+  .datasheet
+    a href="https://nitrous-public.s3.amazonaws.com/nitrous-pro-datasheet.pdf" target="_blank"
+      .ds-l
+        img src="/images/icons/datasheet-preview-and-download.png" alt="Nitrous Datasheet Icon"
+      .ds-r
+        span.datasheet-title Download Datasheet
+        span.datasheet-main Learn more about Nitrous and its benefits
+        span.datasheet-size 606 KB

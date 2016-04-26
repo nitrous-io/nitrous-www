@@ -1,0 +1,36 @@
+.datasheet
+  padding: 0 0 32px
+  width: 100%
+  a
+    width: 100%
+    margin: 0 auto
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: $screen-sm-min)
+      width: 450px
+    border: 2px solid lighten($nitrousGrey4, 3%)
+    display: block
+    border-radius: $borderRadius
+    display: flex
+    padding: 12px
+    &:hover
+      border-color: $brandBlue
+      text-decoration: none
+      background-color: lighten($nitrousGrey4, 10%)
+    .ds-l
+      width: 114px
+      img
+        width: 84px
+    .ds-r
+      flex: 1
+      span
+        display: block
+        padding: 3px 0
+        &.datasheet-title
+          color: $brandBlue
+          font-size: 18px
+          font-weight: bold
+          display: block
+        &.datasheet-main
+          color: $nitrousDark
+        &.datasheet-size
+          color: $nitrousGrey
