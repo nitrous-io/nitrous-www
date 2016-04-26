@@ -5,8 +5,8 @@ main.jumbotron
     .row
       .col-md-5.col-sm-12.col-xs-12
         h1
-          | One-Click
-          span.stack  Ruby
+          . One-Click
+          span#stack  Ruby
           |  Setup
         p
           | No installation required. Start coding in seconds.
