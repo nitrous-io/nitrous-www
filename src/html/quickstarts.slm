@@ -64,7 +64,7 @@ section.hero#quickstarts
         .meta
           h4 Golang
           p.desc A sample Go 1.6.1 project running on Ubuntu.
-      a.flex-item href="#"
+      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-django"
         .logo
           img src="/images/stacks/django.png"
         .meta
