@@ -17,4 +17,5 @@ html
     = content()
     = content('footer', 'default')
       = partial('partials/footer')
+      = partial('partials/ga.slm')
 
