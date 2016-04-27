@@ -16,55 +16,55 @@ section.hero#quickstarts
   .container
     h2 Popular Nitrous Quickstarts
     .flex-list.quickstarts
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-rails"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-rails"
         .logo
           img src="/images/stacks/rails.png"
         .meta
           h4 Ruby on Rails
           p.desc Rails4 with ruby, postgres and redis pre-installed.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-jekyll"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-jekyll"
         .logo
           img src="/images/stacks/jekyll.png"
         .meta
           h4 Jekyll
           p.desc Ruby and Jekyll installed and ready to start coding.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-wordpress"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-wordpress"
         .logo
           img src="/images/stacks/wordpress.png"
         .meta
           h4 Wordpress
           p.desc Standard Wordpress install with PHP, MySQL and Apache server.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-html5"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-html5"
         .logo
           img src="/images/stacks/html5.png"
         .meta
           h4 HTML5
           p.desc A solid HTML5 skeleton start static or dynamic frontend apps.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-php-apache"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-php-apache"
         .logo
           img src="/images/stacks/php.png"
         .meta
           h4 PHP
           p.desc Standard PHP, MySQL and Apache template on Ubuntu.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-python"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-python"
         .logo
           img src="/images/stacks/python.png"
         .meta
           h4 Python
           p.desc Python, Redis, and some other goodies.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-nodejs"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-nodejs"
         .logo
           img src="/images/stacks/nodejs.png"
         .meta
           h4 NodeJS
           p.desc Standard NodeJS Repo. Ready to rumble.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-golang"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-golang"
         .logo
           img src="/images/stacks/golang.png"
         .meta
           h4 Golang
           p.desc A sample Go 1.6.1 project running on Ubuntu.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/nitrous-io/example-django"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-django"
         .logo
           img src="/images/stacks/django.png"
         .meta
@@ -88,31 +88,31 @@ section.hero#quickstarts
         .meta
           h4 Rocket Chat
           p.desc Have your own Slack like online chat, built with Meteor.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/AngularClass/angular2-webpack-starter"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/AngularClass/angular2-webpack-starter"
         .logo
           img src="/images/quickstarts/angular2.png"
         .meta
           h4 Angular 2 Starter
           p.desc With Material Design, Karma, Jasmine, TypeScript, TsLint, Webpack and more.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/bestmomo/laravel5-example"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/bestmomo/laravel5-example"
         .logo
           img src="/images/quickstarts/laravel.jpg"
         .meta
           h4 Laravel 5 Sample App
           p.desc Simple laravel5 example tutorial application.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/cmsd2/rust-iron-react-webpack"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/cmsd2/rust-iron-react-webpack"
         .logo
           img src="/images/quickstarts/rust-iron.png"
         .meta
           h4 Rust, Iron Webpack Sample
           p.desc Example webapp using Rust + Iron + React + Webpack
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/remixz/messenger-bot"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/remixz/messenger-bot"
         .logo
           img src="/images/quickstarts/fbmessenger.png"
         .meta
           h4 Facebook Messenger Sample
           p.desc A Node client for the Facebook Messenger Platform.
-      a.flex-item href="https://www.nitrous.io/quickstart?https://github.com/keystonejs/keystone-demo"
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/keystonejs/keystone-demo"
         .logo
           img src="/images/quickstarts/keystonejs.png"
         .meta
