@@ -24,6 +24,8 @@
                 | 5GB Storage
               li
                 | 50 hrs / mo. usage
+              li.autoshutdown
+                | Workstation Hibernates
 
           .plan-action
             a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=free"
@@ -41,11 +43,14 @@
           .plan-details
             ul.plan-details
               li
-                | Up to <strong>2</strong> Projects
+                | Up to <strong>5</strong> Projects
               li
-                | 5GB Storage
+                | 25 GB Storage
               li
-                | 50 hrs / mo. usage
+                | Unlimited monthly usage
+              li.autoshutdown
+                | Workstation Hibernates
+
           .plan-action
             a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=basic"
               | Sign Up
@@ -62,15 +67,16 @@
           .plan-details
             ul.plan-details
               li
-                | Up to <strong>2</strong> Projects
+                | Up to <strong>6</strong> Projects
               li
-                | 5GB Storage
+                | 30GB Storage
               li
-                | 50 hrs / mo. usage
-              li Always ON
+                | Unlimited Monthly Usage
+              li
+                strong Always ON
 
           .plan-action
-            a.btn.btn-default.caps href="https://www.nitrous.io/app/#/signup?plan=standard"
+            a.btn.btn-primary.caps href="https://www.nitrous.io/app/#/signup?plan=standard"
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -85,13 +91,15 @@
           .plan-details
             ul.plan-details
               li
-                | Up to <strong>2</strong> Projects
+                | Up to <strong>12</strong> Projects
               li
-                | 5GB Storage
+                | 60GB Storage
               li
-                | 50 hrs / mo. usage
-              li 2x Memory
-              li Always ON
+                | Unlimited Monthly Usage
+              li
+                strong Always ON
+              li
+                strong 2x Memory
 
           .plan-action
             a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=professional"
@@ -125,7 +133,8 @@ section.all-plans
   .more-info
     .text
       strong Organization Pricing.
-      |  Org pricing starts at 2 x $39 professional workstations per monnth.
+      .  Org pricing starts at 2 x $39 professional workstations per month.
+      a href="/orgs" Learn more
     .action
       a.btn.btn-primary href="https://www.nitrous.io/app/#/signup?intent=org" Create an Organization
 

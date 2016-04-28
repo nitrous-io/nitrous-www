@@ -12,12 +12,12 @@
     justify-content: space-around
     height: 410px
     border-radius: $borderRadius
-    border: 1px solid $nitrousGrey4
+    border: 1px solid lighten($nitrousGrey4, 5%)
     padding: 20px 10px
     margin-bottom: 16px
 
     .plan-desc, .plan-details ul li
-      color: lighten($nitrousDark4, 7%)
+      color: $nitrousDark2
 
     .plan-name
       font-size: 18px
@@ -30,7 +30,6 @@
         position: absolute
         top: 6px
         right: 8px
-
 
     .plan-price
       font-size: 20px
@@ -47,6 +46,7 @@
     .plan-desc
       padding: 0 0 10px
       font-size: 12px
+      height: 45px
 
     .plan-details
       flex: 1
@@ -57,16 +57,14 @@
         li
           margin: 14px 0
           font-size: 15px
+          &.autoshutdown
+            color: #b3b3b3
 
     a.btn
       width: 100%
 
     &.selected
-      background: $brandBlue
-      border: none
-      .plan-name, .plan-price span, .plan-price small, .plan-desc, .plan-details ul li
-        color: #fff
-      a.btn
+      border-color: $brandBlue
 
 .all-plans
   text-align: center
