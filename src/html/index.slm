@@ -15,7 +15,8 @@ main.jumbotron
           | Get Started Free
 
       .col-md-7.hidden-xs.hidden-sm
-        img.templates src="/images/index/templates.png"
+        .embed-responsive.embed-responsive-16by9
+          iframe.img-responsive width="853" height="480" src="https://www.youtube.com/embed/M0U0mj6E_I0?rel=0&autoplay=1&controls=0&showinfo=0" frameborder="0" allowfullscreen
 
 section.hero#quickstarts
   .container
