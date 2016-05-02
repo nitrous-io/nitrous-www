@@ -16,7 +16,7 @@ main.jumbotron
 
       .col-md-7.hidden-xs.hidden-sm
         .embed-responsive.embed-responsive-16by9
-          iframe.img-responsive width="853" height="480" src="https://www.youtube.com/embed/M0U0mj6E_I0?rel=0&autoplay=1&controls=0&showinfo=0" frameborder="0" allowfullscreen
+          iframe.img-responsive src="https://player.vimeo.com/video/165062411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
 
 section.hero#quickstarts
   .container
