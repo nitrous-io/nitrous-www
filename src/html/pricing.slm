@@ -1,5 +1,8 @@
 = extend('layout')
 
+= content('title', 'append')
+  title Pricing &middot; Nitrous
+
 .hero.pricing
   h2 Simple Pricing
   h4.subtitle For students, hobbyists, professionals and teams.

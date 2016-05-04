@@ -1,5 +1,8 @@
 = extend('layout')
 
+= content('title', 'append')
+  title Flatiron &middot; Nitrous
+
 .hero.main.centered
   .container
     h2 Flatiron + Nitrous

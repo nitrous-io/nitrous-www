@@ -1,5 +1,8 @@
 = extend('layout')
 
+= content('title', 'append')
+  title Home &middot; Nitrous
+
 = content('body_before', 'append')
   javascript:
     // redirect to web app if logged in

@@ -1,5 +1,8 @@
 = extend('layout')
 
+= content('title', 'append')
+  title Agencies &middot; Nitrous
+
 .hero.main.centered
   .container
     h2 Manage Multiple Projects with Ease

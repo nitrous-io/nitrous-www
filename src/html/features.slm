@@ -1,5 +1,8 @@
 = extend('layout')
 
+= content('title', 'append')
+  title Features &middot; Nitrous
+
 .hero.features
   .container
     h2 Nitrous Development Platform
