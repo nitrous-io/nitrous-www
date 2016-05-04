@@ -1,5 +1,12 @@
 = extend('layout')
 
+= content('body_before', 'append')
+  javascript:
+    // redirect to web app if logged in
+    if(localStorage.getItem('token')) {
+       window.location.replace('/app/#/');
+    }
+
 main.jumbotron
   .container
     .row
