@@ -19,7 +19,7 @@
         h3 Can I create multiple workstations?
         p
           | You will need to create a new account if you wish to have another workstation. If you are creating multiple workstations for business purposes, you should consider
-          a href="https://www.nitrous.io/app/#/signup?intent=org"  creating an organization.
+          a href="/app/#/signup?intent=org"  creating an organization.
     .row
       .col-xs-12.col-md-6
         h3 How long can I use my free workstation?

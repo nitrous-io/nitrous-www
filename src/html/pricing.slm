@@ -31,7 +31,7 @@
                 | Workstation Hibernates
 
           .plan-action
-            a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=free"
+            a.btn.btn-basic.caps href="/app/#/signup?plan=free"
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -55,7 +55,7 @@
                 | Workstation Hibernates
 
           .plan-action
-            a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=basic"
+            a.btn.btn-basic.caps href="/app/#/signup?plan=basic"
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -79,7 +79,7 @@
                 strong Always ON
 
           .plan-action
-            a.btn.btn-primary.caps href="https://www.nitrous.io/app/#/signup?plan=standard"
+            a.btn.btn-primary.caps href="/app/#/signup?plan=standard"
               | Sign Up
 
       .col-xs-12.col-md-3
@@ -105,7 +105,7 @@
                 strong 2x Memory
 
           .plan-action
-            a.btn.btn-basic.caps href="https://www.nitrous.io/app/#/signup?plan=professional"
+            a.btn.btn-basic.caps href="/app/#/signup?plan=professional"
               | Sign Up
 
 section.all-plans
@@ -139,7 +139,7 @@ section.all-plans
       .  Org pricing starts at 2 x $39 professional workstations per month.
       a href="/orgs" Learn more
     .action
-      a.btn.btn-primary href="https://www.nitrous.io/app/#/signup?intent=org" Create an Organization
+      a.btn.btn-primary href="/app/#/signup?intent=org" Create an Organization
 
 .hero.education-pricing.centered
   .container

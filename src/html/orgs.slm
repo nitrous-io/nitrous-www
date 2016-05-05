@@ -8,7 +8,7 @@
     h2 Nitrous Orgs
     h4.subtitle Securely manage and administer your team's development environments
 
-    a.btn.btn-lg.btn-default href="https://www.nitrous.io/app/#/signup?intent=org"
+    a.btn.btn-lg.btn-default href="/app/#/signup?intent=org"
       | Create an Organization
 
 .notice

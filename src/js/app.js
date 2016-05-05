@@ -4,7 +4,7 @@ $('.get-started-btn').tooltip({
   trigger: 'hover'
 }).click(function(e) {
   e.preventDefault();
-  location.href = 'https://www.nitrous.io/app/#/signup';
+  location.href = '/app/#/signup';
 });
 
 $(document).ready(function() {

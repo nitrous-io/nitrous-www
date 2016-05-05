@@ -4,5 +4,5 @@
     h4.subtitle
       | Build software using our Web IDE, Chrome app, or your favorite Desktop editor. Share your workspace and code collaboratively with teammates, right in your Web browser.
 
-    a.btn.btn-primary href="https://www.nitrous.io/app/#/signup"
+    a.btn.btn-primary href="/app/#/signup"
       | Get Started For Free
