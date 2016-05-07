@@ -7,6 +7,11 @@
   .container
     h2 Nitrous PubStorm
     h4.subtitle Free HTML5 Web Publishing and Hosting for Developers
+    .input-group.input-group-lg
+      span.input-group-btn
+        button.copy-npm-cmd-btn.btn.btn-default.btn-lg(type='button' data-toggle='tooltip' data-placement='bottom' title='Copy to clipboard')
+          i.fa.fa-clipboard
+      input.form-control.npm-cmd(type='text' readonly=true value='npm install -g pubstorm')
 
 .notice
   .container
