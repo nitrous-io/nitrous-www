@@ -19,6 +19,17 @@ section.jobs
     .row
       .col-xs-12.col-md-8
         #accordion.panel-group role="tablist" aria-multiselectable="true"
+
+          .panel.panel-default
+            #headingOne.panel-heading role="tab"
+              h4.panel-title
+                a.collapsed.platform-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                  | Marketing Engineer
+                  span.location San Francisco - Singapore - Remote
+            #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
+              .panel-body
+                = partial('partials/jobs/marketing')
+
           .panel.panel-default
             #headingOne.panel-heading role="tab"
               h4.panel-title
@@ -60,5 +71,5 @@ section.jobs
           li Regular company events
           li Referral bonuses
           li SF-Singapore exchange program
-          
-= partial('partials/map')          
+
+= partial('partials/map')
