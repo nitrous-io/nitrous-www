@@ -1,2 +1,180 @@
 .embed-responsive
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+
+#pubstorm-demo
+  background: $brandBlue
+  h2
+    color: #fff
+  h4
+    color: rgba(255, 255, 255, .8)
+  .window
+    vertical-align: top
+    .titlebar
+      position: relative
+      height: 25px
+      border-radius: 5px 5px 0 0
+      background: lighten($pubstormYellow, 20%)
+      background-image: linear-gradient(180deg, lighten($pubstormYellow, 25%), lighten($pubstormYellow, 20%))
+      box-shadow: inset 0 1px 0 lighten($pubstormYellow, 30%)
+      border-bottom: 1px solid $pubstormYellow
+
+      .control
+        display: inline-block
+        vertical-align: top
+        width: 11px
+        height: 11px
+        border-radius: 8px
+        background: $pubstormYellow
+        border: 1px solid darken($pubstormYellow, 12%)
+        margin-top: 7px
+        margin-left: 6px
+        &:first-of-type
+          margin-left: 10px
+
+    .window-body
+      background: #fdf6e3
+      border-radius: 0 0 5px 5px
+      padding: 5px 8px
+      font-size: 16px
+
+  .terminal
+    .window-body
+      overflow: hidden
+
+    code
+      padding: 0
+      background: none
+      color: #002b36
+      border: none
+      .blue
+        color: #268bd2
+      .cyan
+        color: #2aa198
+
+    .cursor
+      animation: cursor-blink 1.2s infinite
+      &:before
+        content: '|'
+        color: transparent
+        background: #586e75
+
+    .prompt
+      color: #d33682
+
+  .browser
+    .titlebar-btn
+      display: inline-block
+      vertical-align: top
+      margin-top: 4px
+      background: lighten($pubstormYellow, 45%)
+      color: #777
+      font-size: 11px
+      font-weight: 600
+      height: 18px
+      line-height: 18px
+      border-bottom: 1px solid $pubstormYellow
+      text-align: center
+      border-radius: 3px
+
+    .url-field
+      position: absolute
+      left: 50%
+
+    .left-nav-btn, .right-nav-btn
+      padding: 0 6px
+      font-size: 10px
+
+    .left-nav-btn
+      margin-left: 10px
+
+    .right-nav-btn
+      margin-left: 1px
+
+    .window-body
+      padding: 0
+      height: 400px
+      background: #f8f8f8
+
+    .blog
+      background: white url(/images/index/erins-blog.png) no-repeat
+      background-position: center center
+      background-size: 290px 400px
+      width: 290px
+      height: 100%
+      margin: 0 auto
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: $screen-xs-max)
+  #pubstorm-demo
+    padding: 15px 0
+    .terminal
+      margin-bottom: 15px
+      .window-body
+        min-height: 320px
+        line-height: 1.3
+        font-size: 13px
+
+    .browser
+      .url-field
+        width: 160px
+        margin-left: -80px
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min)
+  #pubstorm-demo
+    .window
+      display: inline-block
+    .terminal
+      width: 348px
+      margin-right: 24px
+      .window-body
+        height: 400px
+        line-height: 1.3
+    .browser
+      width: 348px
+      .url-field
+        width: 130px
+        margin-left: -65px
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min)
+  #pubstorm-demo
+    .window
+      display: inline-block
+    .terminal
+      width: 446px
+      margin-right: 48px
+    .browser
+      width: 446px
+      .url-field
+        width: 200px
+        margin-left: -100px
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min)
+  #pubstorm-demo
+    .window
+      display: inline-block
+    .terminal
+      width: 546px
+      margin-right: 48px
+    .browser
+      width: 546px
+
+/* Hi-DPI displays */
+@media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi)
+  #pubstorm-demo
+    .browser
+      .blog
+        background-image: url(/images/index/erins-blog@2x.png)
+
+/* animations */
+@keyframes cursor-blink
+  0%
+    opacity: 0
+  6%
+    opacity: 1
+  50%
+    opacity: 1
+  100%
+    opacity: 0

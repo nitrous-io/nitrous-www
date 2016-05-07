@@ -114,4 +114,92 @@ section.hero#use-cases
         h4 Agencies
         p Consistent development environments and lightning fast static site hosting with Nitrous PubStorm.
 
-= partial('partials/cta')
+section.hero#pubstorm-demo
+  .container
+    h2 Nitrous PubStorm
+    h4.subtitle
+      | Lightning Fast, Free Website Hosting for Front-end Developers
+
+    .terminal.window
+      .titlebar
+        .control
+        .control
+        .control
+      .window-body
+        code
+          span.cli
+            span.t1
+              span.prompt >
+              =' '
+            span.t2 storm publish
+            span.t3
+              br
+              | Scanning "/Users/erin/erins-blog"...
+            span.t4
+              br
+              span.blue
+                | [Info]
+              |  Bundling 37 files (17.3 MiB)...
+            span.t5
+              br
+              br
+              | Packing bundle "erins-blog"...
+              br
+              | [
+              span.blue.cli-progress-bar
+                | ========================================
+              | ]
+              =' '
+              span.cyan
+                span.cli-progress-percentage 100.0
+                | %
+            span.t6
+              br
+              br
+              | Uploading bundle "erins-blog" to PubStorm Cloud...
+              br
+              | [
+              span.blue.cli-progress-bar
+                | ========================================
+              | ]
+              =' '
+              span.cyan
+                span.cli-progress-percentage 100.0
+                | %
+            span.t7
+              br
+              br
+              | Launching v1...
+            span.t8
+              br
+              span.blue
+                | [Info]
+              |  Successfully published "erins-blog" on PubStorm Cloud.
+              br
+              | =>
+              = ' '
+              ins erins-blog.pubstorm.site
+              br
+              span.prompt >
+              =' '
+          span.cursor
+    .browser.window
+      .titlebar
+        .control
+        .control
+        .control
+        .left-nav-btn.titlebar-btn.hidden-xs
+          i.fa.fa-chevron-left
+        .right-nav-btn.titlebar-btn.hidden-xs
+          i.fa.fa-chevron-right
+        .url-field.titlebar-btn
+          span erins-blog.pubstorm.site
+      .window-body
+        .blog
+
+    .row
+      .col-xs-12
+        p.centered style="padding-top: 20px"
+          a.btn.btn-default href="https://www.pubstorm.com/#get-started"
+            . Create Your Free PubStorm Website
+            i.fa.fa-chevron-right
