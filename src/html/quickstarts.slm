@@ -121,3 +121,25 @@ section.hero#quickstarts
         .meta
           h4 KeystoneJS CMS
           p.desc Sample Keystone App: NodeJS CMS and Web App
+
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/publify"
+        .logo
+          img src="/images/quickstarts/publify.png"
+        .meta
+          h4 Publify CMS
+          p.desc A blogging engine built with Ruby on Rails.
+
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/spree"
+        .logo
+          img src="/images/quickstarts/spree.png"
+        .meta
+          h4 Spree Commerce
+          p.desc Spree is an e-commerce solution built with Ruby on Rails.
+
+      a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/react-slingshot"
+        .logo
+          img src="/images/quickstarts/react.png"
+        .meta
+          h4 React Slingshot
+          p.desc React + Redux starter kit with Babel, hot reloading, linting and example app.
+
