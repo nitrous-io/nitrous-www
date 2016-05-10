@@ -24,16 +24,6 @@ section.jobs
             #headingOne.panel-heading role="tab"
               h4.panel-title
                 a.collapsed.platform-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
-                  | Marketing Engineer
-                  span.location San Francisco - Singapore - Remote
-            #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
-              .panel-body
-                = partial('partials/jobs/marketing')
-
-          .panel.panel-default
-            #headingOne.panel-heading role="tab"
-              h4.panel-title
-                a.collapsed.platform-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
                   | Platform Engineer
                   span.location San Francisco - Singapore
             #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
@@ -59,6 +49,16 @@ section.jobs
             #collapseThree.panel-collapse.collapse role="tabpanel" aria-labelledby="headingThree"
               .panel-body
                 = partial('partials/jobs/evangelist')
+
+          .panel.panel-default
+            #headingFour.panel-heading role="tab"
+              h4.panel-title
+                a.collapsed.platform-engineer.with-icon role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                  | Marketing Engineer
+                  span.location San Francisco - Singapore - Remote
+            #collapseFour.panel-collapse.collapse role="tabpanel" aria-labelledby="headingFour"
+              .panel-body
+                = partial('partials/jobs/marketing')
 
       .col-xs-12.col-md-3.col-md-offset-1.additional
         h3 Additional details
