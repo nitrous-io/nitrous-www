@@ -19,7 +19,7 @@ footer
         li
           a href="/jobs" Jobs
         li
-          a href="https://community.nitrous.io/blog/" Blog
+          a href="https://community.nitrous.io/posts/" Blog
     .col-md-2
       h4 Use Cases
       ul
