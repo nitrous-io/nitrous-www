@@ -1,4 +1,4 @@
-= extend('layout')
+= extend('/layout')
 
 = content('title', 'append')
   title Jobs &middot; Nitrous
@@ -28,7 +28,7 @@ section.jobs
                   span.location San Francisco - Singapore
             #collapseOne.panel-collapse.collapse role="tabpanel" aria-labelledby="headingOne"
               .panel-body
-                = partial('partials/jobs/platform')
+                = partial('/partials/jobs/platform')
 
           .panel.panel-default
             #headingTwo.panel-heading role="tab"
@@ -38,7 +38,7 @@ section.jobs
                   span.location San Francisco - Singapore
             #collapseTwo.panel-collapse.collapse role="tabpanel" aria-labelledby="headingTwo"
               .panel-body
-                = partial('partials/jobs/engineer')
+                = partial('/partials/jobs/engineer')
 
           .panel.panel-default
             #headingThree.panel-heading role="tab"
@@ -48,7 +48,7 @@ section.jobs
                   span.location San Francisco - Remote
             #collapseThree.panel-collapse.collapse role="tabpanel" aria-labelledby="headingThree"
               .panel-body
-                = partial('partials/jobs/evangelist')
+                = partial('/partials/jobs/evangelist')
 
           .panel.panel-default
             #headingFour.panel-heading role="tab"
@@ -58,7 +58,7 @@ section.jobs
                   span.location San Francisco - Singapore - Remote
             #collapseFour.panel-collapse.collapse role="tabpanel" aria-labelledby="headingFour"
               .panel-body
-                = partial('partials/jobs/marketing')
+                = partial('/partials/jobs/marketing')
 
       .col-xs-12.col-md-3.col-md-offset-1.additional
         h3 Additional details
@@ -72,4 +72,4 @@ section.jobs
           li Referral bonuses
           li SF-Singapore exchange program
 
-= partial('partials/map')
+= partial('/partials/map')

@@ -1,4 +1,4 @@
-= extend('layout')
+= extend('/layout')
 
 = content('title', 'append')
   title Quickstarts &middot; Nitrous
@@ -143,4 +143,4 @@ section.hero#quickstarts
           h4 React Slingshot
           p.desc React + Redux starter kit with Babel, hot reloading, linting and example app.
 
-= partial('partials/cta')
+= partial('/partials/cta')

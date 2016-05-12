@@ -1,4 +1,4 @@
-= extend('layout')
+= extend('/layout')
 
 = content('title', 'append')
   title Agencies &middot; Nitrous
@@ -70,4 +70,4 @@ article.blockquote.wilsonsmith
             | Ryan Smith
             span.bio Partner, Wilson &amp; Smith Consulting
 
-= partial('partials/cta')
+= partial('/partials/cta')

@@ -1,4 +1,4 @@
-= extend('layout')
+= extend('/layout')
 
 = content('title', 'append')
   title Features &middot; Nitrous
@@ -128,4 +128,4 @@
       a.btn.btn-primary.with-icon.chrome href="https://chrome.google.com/webstore/detail/nitrous/efdcneeepllhjlbejkfnaolelbpdacai?hl=en" target="_blank"
         | Chrome Web Store
 
-= partial('partials/cta')
+= partial('/partials/cta')

@@ -1,4 +1,4 @@
-= extend('layout')
+= extend('/layout')
 
 = content('title', 'append')
   title About &middot; Nitrous
@@ -59,4 +59,4 @@
           a href="http://www.bvp.com/"  www.bvp.com
           | .
 
-= partial('partials/map')
+= partial('/partials/map')

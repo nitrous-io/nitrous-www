@@ -273,7 +273,7 @@ function buildSlm(dest) {
   dest = dest || "build/dev";
 
   return gulp.src('./src/html/**/*.slm')
-    .pipe(slm())
+    .pipe(slm({ basePath: path.resolve(__dirname, 'src', 'html') }))
     .pipe(gulp.dest(dest));
 }
 

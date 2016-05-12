@@ -1,4 +1,4 @@
-= extend('layout')
+= extend('/layout')
 
 = content('title', 'append')
   title Pricing &middot; Nitrous
@@ -149,4 +149,4 @@ section.all-plans
     a.btn.btn-primary href="mailto:hello@nitrous.io?subject=API%20Pricing%20Inquiry"
       | Contact for pricing
 
-= partial('partials/faq')
+= partial('/partials/faq')

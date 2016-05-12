@@ -1,4 +1,4 @@
-= extend('layout')
+= extend('/layout')
 
 = content('title', 'append')
   title PubStorm &middot; Nitrous
@@ -81,4 +81,4 @@ section#pubstorm-tools
       li.grunt
         span.sr-only Grunt
 
-= partial('partials/pubstorm-cta')
+= partial('/partials/pubstorm-cta')
