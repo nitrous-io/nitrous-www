@@ -18,7 +18,7 @@
     p
       span.label.label-primary FREE
       | Publishing your first site is free and takes 60 seconds.
-      a href="http://help.pubstorm.com/getting-started/getting_started"  Read the docs
+      a href="http://help.pubstorm.com/getting-started/getting-started"  Read the docs
       i.fa.fa-chevron-right.blue
 
 section#pubstorm-features
