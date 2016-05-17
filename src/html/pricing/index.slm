@@ -76,6 +76,9 @@
               li
                 | Unlimited Monthly Usage
               li
+                . Supports
+                a href="https://community.nitrous.io/docs/setting-up-a-custom-domain" target="_blank" custom domains
+              li
                 strong Always ON
 
           .plan-action
@@ -99,6 +102,9 @@
                 | 60GB Storage
               li
                 | Unlimited Monthly Usage
+              li
+                . Supports
+                a href="https://community.nitrous.io/docs/setting-up-a-custom-domain" target="_blank" custom domains
               li
                 strong Always ON
               li

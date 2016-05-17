@@ -10,7 +10,7 @@
     flex-direction: column
     text-align: center
     justify-content: space-around
-    height: 410px
+    height: 100%
     border-radius: $borderRadius
     border: 1px solid lighten($nitrousGrey4, 5%)
     padding: 20px 10px
@@ -86,4 +86,9 @@
     margin-right: 5px
     &.green
       color: $limeGreen
+
+@media (min-width: $screen-sm-min)
+  .pricing-plans
+    .plan-item
+      height: 450px
 
