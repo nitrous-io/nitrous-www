@@ -15,18 +15,102 @@ main.jumbotron
     .row
       .col-md-5.col-sm-12.col-xs-12
         h1
-          . One-Click
-          span#stack  Ruby
-          |  Setup
+          | One-Click
+          br
+          | Application Setup
         p
-          | No installation required. Start coding in seconds.
+          | No installation required. Start coding in our cloud IDE in seconds.
 
-        button.get-started-btn.btn.btn-lg.btn-default type='button'
+        button.get-started-btn.btn.btn-lg.btn-primary type='button'
           | Get Started Free
 
-      .col-md-7.hidden-xs.hidden-sm
-        .embed-responsive.embed-responsive-16by9
-          iframe.img-responsive src="https://player.vimeo.com/video/165062411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+      .col-md-7.hidden-xs.hidden-sm#apps
+        .browser.window
+          .titlebar
+            .control
+            .control
+            .control
+            .left-nav-btn.titlebar-btn.hidden-xs
+              i.fa.fa-chevron-left
+            .right-nav-btn.titlebar-btn.hidden-xs
+              i.fa.fa-chevron-right
+            .url-field.titlebar-btn
+              i.fa.fa-lock.green
+              span.green https
+              | ://www.nitrous.io/projects/new
+          .window-body
+            .new-project
+              h4 New Project
+              .input
+                span#stack
+                  |
+                span.cursor
+
+            .templates-grid.flex-list
+              #rails.flex-item
+                .logo
+                  img src="/images/stacks/rails.png"
+                .name
+                  | Ruby on Rails
+              #django.flex-item
+                .logo
+                  img src="/images/stacks/django.png"
+                .name
+                  | Django
+              #php.flex-item
+                .logo
+                  img src="/images/stacks/php.png"
+                .name
+                  | PHP (LAMP)
+              #meteor.flex-item
+                .logo
+                  img src="/images/stacks/meteor.png"
+                .name
+                  | Meteor
+              #wordpress.flex-item
+                .logo
+                  img src="/images/stacks/wordpress.png"
+                .name
+                  | Wordpress
+              #python.flex-item
+                .logo
+                  img src="/images/stacks/python.png"
+                .name
+                  | Python
+              #node.flex-item
+                .logo
+                  img src="/images/stacks/nodejs.png"
+                .name
+                  | Node.js
+              #go.flex-item
+                .logo
+                  img src="/images/stacks/golang.png"
+                .name
+                  | Go
+              #jekyll.flex-item
+                .logo
+                  img src="/images/stacks/jekyll.png"
+                .name
+                  | Jekyll
+
+section.hero#use-cases
+  .container
+    h2 Solutions for Education, Dev Teams & Agencies.
+    h4.subtitle
+      | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
+    .flex-list
+      a.flex-item.education href="/education"
+        img src="/images/icons/education.png"
+        h4 Education
+        p Students start coding faster than ever. Zero setup, work from any web browser.
+      a.flex-item.remote href="/orgs"
+        img src="/images/icons/remote.png"
+        h4 Remote Teams
+        p Centralized billing and team management, snapshots and live collaboration.
+      a.flex-item.agencies href="/agencies"
+        img src="/images/icons/agency.png"
+        h4 Agencies
+        p Consistent development environments and lightning fast static site hosting with Nitrous PubStorm.
 
 section.hero#quickstarts
   .container
@@ -94,25 +178,6 @@ section.hero#quickstarts
         |  Want to create a custom Quickstart from your own GitHub Repo?
       .action
         a.btn.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
-
-section.hero#use-cases
-  .container
-    h2 Solutions for Education, Dev Teams & Agencies.
-    h4.subtitle
-      | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
-    .flex-list
-      a.flex-item.education href="/education"
-        img src="/images/icons/education.png"
-        h4 Education
-        p Students start coding faster than ever. Zero setup, work from any web browser.
-      a.flex-item.remote href="/orgs"
-        img src="/images/icons/remote.png"
-        h4 Remote Teams
-        p Centralized billing and team management, snapshots and live collaboration.
-      a.flex-item.agencies href="/agencies"
-        img src="/images/icons/agency.png"
-        h4 Agencies
-        p Consistent development environments and lightning fast static site hosting with Nitrous PubStorm.
 
 section.hero#pubstorm-demo
   .container
