@@ -1,0 +1,8 @@
+.hero.centered
+  .container
+    h2 Contact us for more information
+    h4.subtitle
+      | Get your students on the same development environment regardless of which computer or OS they're using.
+
+    a.btn.btn-primary href="mailto:hello@nitrous.io?subject=Education%20API" target="_top"
+      | Get in Touch
