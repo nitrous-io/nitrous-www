@@ -1,0 +1,8 @@
+<!-- Twitter Card data -->
+meta name="twitter:card" content="product"
+meta name="twitter:site" content="https://www.nitrous.io"
+meta name="twitter:title" content="Nitrous Cloud IDE"
+meta name="twitter:description" content="The fastest way to start coding on a new web application. 100% free."
+meta name="twitter:creator" content="@nitrous"
+<!-- Twitter Summary card images must be at least 120x120px -->
+meta name="twitter:image" content="http://nitrous-community.s3.amazonaws.com/images/social3.png"

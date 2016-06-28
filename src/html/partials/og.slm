@@ -1,0 +1,7 @@
+<!-- Open Graph data -->
+head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article:http://ogp.me/ns/article#"
+meta property="og:title" content="Nitrous Cloud IDE"
+meta property="og:type" content="website"
+meta property="og:url" content="https://www.nitrous.io/"
+meta property="og:image" content="http://nitrous-community.s3.amazonaws.com/images/social2.png"
+meta property="og:description" content="The fastest way to start coding on a new web application. 100% free."
