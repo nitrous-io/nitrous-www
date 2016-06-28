@@ -7,8 +7,8 @@ html
     meta name='keywords' content='Nitrous, free, cloud IDE, code, editor, IDE, workspace, ruby, php, rails, python, docker'
     meta name='description' content='Nitrous provides a Cloud IDE and pre-configured ruby-on-rails, python, php, meteor nodejs environments built with Docker.'
 
-    = content('partials/og')
-    = content('partials/tcards')
+    = partial('partials/og')
+    = partial('partials/tcards')
 
     = content('title', 'default')
       title Nitrous &middot; Cloud Development Environment
