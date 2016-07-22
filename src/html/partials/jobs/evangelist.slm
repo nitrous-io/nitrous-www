@@ -1,24 +1,25 @@
-p We are a results and data-driven organization. This allows us to avoid the bureaucracy of typical large companies. We value people who are doers instead of talkers, who obsess over the details, who listen to data yet know when to trust their gut, and who empathize with our users.
+p Nitrous makes programming more enjoyable and programmers and teams more productive. As a developer evangelist, you will interact with programmers of all experience levels to educate them on Nitrous' most powerful features, and use customer feedback to continually improve the product.
 
-p At Nitrous, we're making programming more enjoyable and programmers and teams more productive. As a developer evangelist at Nitrous, you will interact with beginner, amateur and professional programmers to educate them on Nitrous's most powerful features, and listen to them to help us continually improve the platform.
-
-p We are looking for developer evangelists with boundless energy who love traveling, meeting new people, and are obsessed with new technology and changing the way programmers work.
+p We at Nitrous are looking for a developer evangelist with boundless energy who loves to travel, connect with new people, and is obsessed with new technology and improving how developers work.
 
 h3 Responsibilities
 
 ul
-  li Giving talks and demos of new Nitrous features at conferences
+  li Speaking at events to promote the value of Nitrous
   li Writing Call for Papers and Abstracts to submit to developer conferences
   li Traveling to conferences and representing the company
   li Writing tutorials about how to use Nitrous with different technologies
-  li Creating "how-to" videos and other introduction videos
+  li Creating "how-to" videos, webinars and other introduction videos
+  li Collecting and sharing developer feedback for Nitrous product improvement
 
 h3 Requirements
 
 ul
-  li Excellent written and verbal communication skills
-  li Experience with public speaking, specifically on technical topics
-  li Experience demoing technical products in front of large audiences
+  li Excellent written and verbal communication skills, bonus points for technical writing
+  li Experience with public speaking to large audiences, specifically on technical topics
+  li Proven track record of relevant development
+  li Strong social skills
+  li Willingness to travel
 
 p To apply, please provide the following:
 
@@ -26,7 +27,8 @@ ul
   li Github Profile with code you've written
   li Links to blog and/or videos of talks
   li Links to community profiles like Twitter, Hacker News, Stack Overflow, Reddit, etc...
-  li Why you want to change development
+  li How you want to improve development
+
 
 a.btn.btn-basic href="mailto:jobs@nitrous.io?subject=Dev%20Evangelist"
   | Apply for this position
