@@ -24,8 +24,6 @@ footer
       h4 Use Cases
       ul
         li
-          a href="/flatiron" Flatiron School
-        li
           a href="/education" Education
         li
           a href="/agencies" Agencies

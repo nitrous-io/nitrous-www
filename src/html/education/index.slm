@@ -8,16 +8,8 @@
     h2 Nitrous and Education
     h4.subtitle Students start coding faster than ever. Zero setup, work from any browser.
 
-    a.btn.btn-lg.btn-default href="#"
+    a.btn.btn-lg.btn-default href="/app/#/signup"
       | Get Started for Free
-
-.notice
-  .container
-    p
-      span.label.label-primary New
-      | Learn how the Flatiron School uses Nitrous
-      a.readmore href="/flatiron"  Read More
-      i.fa.fa-chevron-right.blue.small
 
 .hero.featurette
   .container
