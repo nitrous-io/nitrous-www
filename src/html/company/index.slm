@@ -46,6 +46,9 @@
       li data-toggle="tooltip" title="This is YC. YC writes code in cloud. YC uses Nitrous. YC is smart. Be like YC."
         img alt="YC" src="/images/company/yc.png"
 
+      li data-toggle="tooltip" title="Joyce is a former Product Manager, turned Developer Evangelist.  She will challenge you to a push-up contest."
+        img alt="Joyce" src="/images/company/joyce.png"
+
 .hero.investors
   .container
     .row
