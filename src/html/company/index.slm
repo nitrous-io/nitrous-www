@@ -31,6 +31,9 @@
       li data-toggle="tooltip" title="Pete started programming at the age of 8, when most kids were still picking their nose. He likes cycling and playing airsoft games."
         img alt="Pete" src="/images/company/pete.png"
 
+      li data-toggle="tooltip" title="Arabella handles marketing at Nitrous, and hails from Microsoft, Nokia and Nest Labs. Kayaking is her jam."
+        img alt="Arabella" src="/images/company/arabella.png"
+
       li data-toggle="tooltip" title="Nicole is the glue that holds it all together at Nitrous. She enjoys designing clothes, animals of all kinds, and reading great books."
         img alt="Nicole" src="/images/company/nicole.png"
 
