@@ -24,5 +24,6 @@ html
     = content()
     = content('footer', 'default')
       = partial('partials/footer')
+      = partial('partials/optimizely.slm')
       = partial('partials/ga.slm')
 
