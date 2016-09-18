@@ -19,7 +19,8 @@ html
     link rel='stylesheet' href='/css/app.css'
 
     = partial('partials/optimizely.slm')
-  
+    = partial('partials/facebook.slm')
+
   body
     = content('body_before')
     = content('header', 'default')
