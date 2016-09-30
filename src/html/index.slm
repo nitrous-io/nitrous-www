@@ -173,7 +173,7 @@ section.hero#quickstarts
         strong Custom Quickstarts.
         |  Want to create a custom Quickstart from your own GitHub Repo?
       .action
-        a.btn.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
+        a.btn.btn-default href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
 
 section.hero#pubstorm-demo
   .container
@@ -261,6 +261,5 @@ section.hero#pubstorm-demo
     .row
       .col-xs-12
         p.centered style="padding-top: 20px"
-          a.btn.btn-default href="https://www.pubstorm.com/#get-started"
-            . Create Your Free PubStorm Website
-            i.fa.fa-chevron-right
+          a.btn.btn-primary href="https://www.pubstorm.com/#get-started"
+            . Create Your Free PubStorm Website &raquo
