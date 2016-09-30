@@ -107,24 +107,6 @@ section.hero.featurette.peakaboo#solo
       .hidden-xs.hidden-sm.hidden-md.col-lg-4
         img.img-fluid.center-block src="/images/ide/ide-ft-3.png" style="max-height: 500px;"
 
-section.hero#use-cases
-  .container
-    h2 Solutions for Education, Dev Teams & Agencies.
-    h4.subtitle
-      | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
-    .flex-list
-      a.flex-item.education href="/education"
-        img src="/images/icons/education.png"
-        h4 Education
-        p Students start coding faster than ever. Zero setup, work from any web browser.
-      a.flex-item.remote href="/orgs"
-        img src="/images/icons/remote.png"
-        h4 Remote Teams
-        p Centralized billing and team management, snapshots and live collaboration.
-      a.flex-item.agencies href="/agencies"
-        img src="/images/icons/agency.png"
-        h4 Agencies
-        p Consistent development environments and lightning fast static site hosting with Nitrous PubStorm.
 
 section.hero#quickstarts
   .container
