@@ -1,17 +1,17 @@
 main.jumbotron
   // background: url('/images/hero-bg.jpg') 0 50% repeat-x
-  background: linear-gradient(to bottom,#fff,#fbfcfb)
+  background: linear-gradient(to right,$primaryCoral,$primaryPumpkin)
   border-bottom: 1px solid #e8e8e8
   overflow: hidden
   text-align: center
   margin-bottom: 0
-  color: #484848
+  color: $nitrousGrey3
   span#stack
   h1
-    font-weight: 200
+    font-weight: 800
   p
-    color: rgba(0, 0, 0, 0.8)
-    font-size: 18px
+    color: $nitrousGrey3
+    font-size: 12px
   img.templates
     box-shadow: 0 2px 4px rgba(0,0,0,0.3)
     border-radius: 2px
@@ -22,11 +22,10 @@ main.jumbotron
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min)
   main.jumbotron
-    margin-top: 20px
     height: 442px
     h1
       font-size: 36px
-      margin: 36px 0 12px
+      margin: 0 0 12px
       line-height: 1.25em
     p
       font-size: 22px
@@ -42,7 +41,7 @@ main.jumbotron
     padding: 72px 0
     h1
       font-size: 32px
-      margin: 48px 0 0
+      margin: 0 0 0
     p
       font-size: 18px
       margin: 24px 0
