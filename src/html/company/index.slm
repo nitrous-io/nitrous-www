@@ -6,19 +6,18 @@
 .hero.main.notice-after
   .container
     h2 Nitrous Inc.
-    h4.subtitle Building the future of development environments
+    h4.subtitle Level up your development
 
 .notice
   .container
     p
-      b We're Hiring!
-      | Come change the way the world codes.
-      b a href="/jobs"  Check out our open positions &raquo
+      | We're Hiring! Come change the way the world codes.
+      a href="/jobs"  Check out our open positions &raquo
 
 .hero.people
   .container
     p.big
-      | Nitrous is developed and maintained by an experienced team based out of San Francisco and Singapore. We focus on building the best tools for developers and teams around the world.
+      | Nitrous builds scalable, reliable tooling for developers at all levels of experience. With offices in San Francisco and Singapore, the company launched one of the first collaborative cloud IDEs in the industry in 2012, and in 2016 launched PubStorm, a scalable static site hosting provider.
 
     .flex-list.people
        .flex-item
@@ -36,7 +35,7 @@
          p.title
            | CTO
          p.bio
-           | Pete started programming at the age of 8, when most kids were still picking their nose. He likes cycling and playing airsoft games.
+           | Pete started programming at the age of 8, and has never stopped. A co-founder of Nitrous, Pete frequently contributes to open source and in his free time, enjoys road cycling.
        .flex-item
          img alt="Arabella" src="/images/company/arabella.png"
          p.name
@@ -44,7 +43,7 @@
          p.title
            | VP Marketing
          p.bio
-           | Arabella handles marketing at Nitrous, and hails from Microsoft, Nokia and Nest Labs. Kayaking is her jam.
+           | Arabella has more than 15 years of developer marketing experience with global companies including Microsoft, Nokia, and Nest Labs.
 
 
 .hero.investors
@@ -53,7 +52,7 @@
     p
       | Bessemer Venture Partners led Nitrous' Seed and Series A financing rounds.
     p
-      | Bessemer Venture Partners (BVP) invests in early-stage and hyper-growth startups, partnering closely with entrepreneurs to build durable businesses. With $4 billion under management, BVP invests anywhere from $100,000 to $75 million in innovative companies like Pinterest, Twilio, Box, LinkedIn, Shopify, Yelp, Skype and Nitrous. Over 100 BVP companies have gone public – in the last three years alone, BVP has had 46 exits (IPO and M&amp;A) and made new investments in more than 85 companies. Learn more at
+      | Bessemer Venture Partners (BVP) invests in early-stage and hyper-growth startups, partnering closely with entrepreneurs to build durable businesses. With $4.5 billion under management, BVP invests anywhere from $100,000 to $75 million in innovative companies like Pinterest, Twilio, Box, Twitch,LinkedIn, Shopify, Yelp, Skype and Nitrous. Over 100 BVP companies have gone public – in the last three years alone, BVP has had 46 exits (IPO and M&A) and made new investments in more than 85 companies. Learn more at
       a href="http://www.bvp.com/"  www.bvp.com
       | .
 

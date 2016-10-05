@@ -8,8 +8,10 @@
 .notice
   background: $primaryCoral
   color: $nitrousGrey3
+  font-size: 18px
   a
     color: $nitrousGrey3
+    text-decoration: underline
 
 $flexItemPadding: 24px
 
@@ -17,11 +19,11 @@ $flexItemPadding: 24px
   p.big
     font-size: 22px
     color: $nitrousDark2
-    padding: 0 0 16px 0
+
   .flex-list
 
     display: flex
-    justify-content: space-around
+    justify-content: space-between
     flex-wrap: wrap
     margin-left: -$flexItemPadding
     margin-top: -$flexItemPadding
@@ -30,13 +32,13 @@ $flexItemPadding: 24px
     flex: 1 0 300px
     box-sizing: border-box
     padding: $flexItemPadding
-    margin-left: -$flexItemPadding
-    margin-top: -$flexItemPadding
+    margin-left: $flexItemPadding
+    margin-top: $flexItemPadding
     display: flex
     flex-wrap: wrap
     flex-direction: column
     justify-content: flex-start
-    align-items: flex-end
+    align-items: center
     text-align: center
     background: transparent
     p.name
@@ -58,18 +60,21 @@ $flexItemPadding: 24px
     margin: 0 48px
     display: flex
     justify-content: center
+    align-items: center
     flex-direction: column
     img
       display: block
-      height: 184px
+      margin: 24px 0 20px
 
     p
       color: $nitrousDark2
       padding: 10px
       text-align: center
       margin: 0
+      font-size: 18px
       a
         text-decoration: underline
+        color: $nitrousDark2
 
 
 
