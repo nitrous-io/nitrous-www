@@ -1,17 +1,76 @@
-.people
-  ul
-    margin: 64px 0 0
-    padding: 0
-    text-align: center
-    li
-      margin: 8px
-      img
-        width: 92px
-        height: 92px
-        border: 2px solid #fff
-      &:hover
-        img
-          border: 2px solid $brandBlue
+.hero.main.notice-after
+  background: #36374a
+  border: 0
+  h2
+    font-size: 58px
+  h4
+    font-size: 24px
+.notice
+  background: $primaryCoral
+  color: $nitrousGrey3
+  a
+    color: $nitrousGrey3
 
-.investors
-  padding: 64px 0
+$flexItemPadding: 24px
+
+.hero.people
+  p.big
+    font-size: 22px
+    color: $nitrousDark2
+    padding: 0 0 16px 0
+  .flex-list
+
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    margin-left: -$flexItemPadding
+    margin-top: -$flexItemPadding
+
+  .flex-item
+    flex: 1 0 300px
+    box-sizing: border-box
+    padding: $flexItemPadding
+    margin-left: -$flexItemPadding
+    margin-top: -$flexItemPadding
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-end
+    text-align: center
+    background: transparent
+    p.name
+      font-size: 30px
+      color: $nitrousDark
+      text-align: center
+    p.title
+      font-size: 18px
+      color: $nitrousDark3
+      text-align: center
+    p.bio
+      color: $nitrousDark2
+      font-size: 18px
+
+.hero.investors
+  background: $nitrousGrey3
+  padding: 40px
+  .container
+    margin: 0 48px
+    display: flex
+    justify-content: center
+    flex-direction: column
+    img
+      display: block
+      height: 184px
+
+    p
+      color: $nitrousDark2
+      padding: 10px
+      text-align: center
+      margin: 0
+      a
+        text-decoration: underline
+
+
+
+
