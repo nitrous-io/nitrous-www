@@ -17,7 +17,7 @@
 .hero.people
   .container
     p.big
-      | Nitrous builds scalable, reliable tooling for developers at all levels of experience. With offices in San Francisco and Singapore, the company launched one of the first collaborative cloud IDEs in the industry in 2012, and in 2016 launched PubStorm, a scalable static site hosting provider.
+      | Nitrous builds tools for developers of all kinds. With offices in San Francisco and Singapore, the company launched one of the first collaborative cloud IDEs in 2012, and in 2016 launched PubStorm, a static site hosting provider.
 
     .flex-list.people
        .flex-item
