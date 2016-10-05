@@ -30,14 +30,18 @@ main.jumbotron
             .control
             .control
             .control
-            .left-nav-btn.titlebar-btn.hidden-xs
-              i.fa.fa-chevron-left
-            .right-nav-btn.titlebar-btn.hidden-xs
-              i.fa.fa-chevron-right
-            .url-field.titlebar-btn
-              i.fa.fa-lock.green
-              span.green https
-              | ://www.nitrous.io/projects/new
+
+            /! commenting out the browser controls for arabella test
+            /!.left-nav-btn.titlebar-btn.hidden-xs
+            /!  i.fa.fa-chevron-left
+            /!.right-nav-btn.titlebar-btn.hidden-xs
+            /!  i.fa.fa-chevron-right
+            /!.url-field.titlebar-btn
+            /!  i.fa.fa-lock.green
+            /!  span.green https
+            /!  | ://www.nitrous.io/projects/new
+
+
           .window-body
             .new-project
               h4 New Project
