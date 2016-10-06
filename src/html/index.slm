@@ -15,11 +15,11 @@ main.jumbotron
     .row
       .col-md-5.col-sm-12.col-xs-12
         h1
-          | Start Coding
+          | Code, collaborate
           br
-          | Powerful Apps in Seconds
+          | and publish
         p
-          | No installation required. Create a new environment with our cloud IDE in seconds.
+          | Develop on a new environment in seconds with the Nitrous IDE, and deploy in seconds with Nitrous PubStorm.
 
         button.get-started-btn.btn.btn-lg.btn-primary type='button'
           | Get Started Free
@@ -102,9 +102,9 @@ main.jumbotron
 
 section.hero.featurette.peakaboo#solo
   .container-fluid
-    h2 Best-in-class Cloud IDE
+    h2 Nitrous IDE: Start coding powerful apps in seconds.
     h4.subtitle
-      | Intelligent auto-complete, live collaboration, beautiful themes and deployment from your web browser.
+      | Intelligent auto-complete, live collaboration, and deployment from your web browser. No installation required.
 
     .row
       .col-xs-12.col-md-6.col-lg-4.col-xl-4
@@ -117,11 +117,10 @@ section.hero.featurette.peakaboo#solo
 
 section.hero#quickstarts
   .container
-    h2 Start Coding Now with Nitrous Quickstarts
+    h2 Nitrous IDE Quickstarts
     h4.subtitle
-      . Create custom templates from any GitHub project by defining your project setup in
-      code
-        a href="https://community.nitrous.io/docs/nitrous-quickstarts" target="_blank" nitrous.json
+      . Start coding now. Create custom templates from any GitHub project.
+
     .flex-list.quickstarts
       a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-rails"
         .logo
@@ -186,7 +185,7 @@ section.hero#pubstorm-demo
   .container
     h2 Nitrous PubStorm
     h4.subtitle
-      | Lightning Fast, Free Website Hosting for Front-end Developers
+      | Lightning fast, free static website hosting for front-end developers
 
     .terminal.window
       .titlebar
