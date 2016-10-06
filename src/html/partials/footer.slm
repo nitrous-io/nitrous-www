@@ -12,24 +12,18 @@ footer
         li
           a href="/pricing" Pricing
         li
-          a href="/features" Features
-        li
           a href="/company" Company
         li
           a href="/jobs" Jobs
         li
           a href="https://community.nitrous.io/posts/" Blog
     .col-md-2
-      h4 Use Cases
+      h4 Products
       ul
         li
-          a href="/education" Education
+          a href="/features" Nitrous Cloud IDE
         li
-          a href="/agencies" Agencies
-        li
-          a href="/quickstarts" Quickstarts
-        li
-          a href="/pubstorm" PubStorm
+          a href="https://www.pubstorm.com/" PubStorm
 
     .col-md-2
       h4 Resources

@@ -28,8 +28,11 @@ main.jumbotron
         .browser.window
           .titlebar
             .control
+              .left
             .control
+              .mid
             .control
+              .right
 
             /! commenting out the browser controls for arabella test
             /!.left-nav-btn.titlebar-btn.hidden-xs
