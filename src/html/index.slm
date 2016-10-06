@@ -15,14 +15,15 @@ main.jumbotron
     .row
       .col-md-5.col-sm-12.col-xs-12
         h1
-          | Code, collaborate
+          | Code, Collaborate
           br
-          | and publish
+          | and Publish
         p
-          | Develop on a new environment in seconds with the Nitrous IDE, and deploy in seconds with Nitrous PubStorm.
+          | Develop on a new environment in seconds with the Nitrous IDE, and when you’re ready, deploy almost immediately from the CLI with Nitrous PubStorm.
 
-        button.get-started-btn.btn.btn-lg.btn-primary type='button'
+        a.button.get-started-btn.btn.btn-lg.btn-primary type='button'
           | Get Started Free
+
 
       .col-md-7.hidden-xs.hidden-sm#apps
         .browser.window
