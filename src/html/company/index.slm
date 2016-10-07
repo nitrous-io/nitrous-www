@@ -6,63 +6,54 @@
 .hero.main.notice-after
   .container
     h2 Nitrous Inc.
-    h4.subtitle Building the future of development environments
+    h4.subtitle Level up your development
 
 .notice
   .container
     p
-      span.label.label-primary We're Hiring
-      | Come change the way the world codes.
-      a href="/jobs"  Check out our open positons
-      i.fa.fa-chevron-right.blue
+      | We're Hiring! Come change the way the world codes.
+      a href="/jobs"  Check out our open positions &raquo
 
 .hero.people
   .container
     p.big
-      | Nitrous is developed and maintained by an experienced team based out of San Francisco and Singapore. We focus on building the best tools for developers and teams around the world.
+      | Nitrous builds tools for developers of all kinds. With offices in San Francisco and Singapore, the company launched one of the first collaborative cloud IDEs in 2012, and in 2016 launched PubStorm, a static site hosting provider.
 
-    ul
-      li data-toggle="tooltip" title="Scott has a deep knowledge of platforms and cloud computing with three successful startup exits - one in excess of $1b. He has managed teams at Microsoft, Salesforce and VMWare."
-        img alt="Scott Collison" src="/images/company/collison.png"
+    .flex-list.people
+       .flex-item
+         img alt="Scott Collison" src="/images/company/collison.png"
+         p.name
+           | Scott Collison
+         p.title
+           | CEO
+         p.bio
+           | Scott has a deep knowledge of platforms and cloud computing with three successful startup exits - one in excess of $1b. He has managed teams at Microsoft, Salesforce and VMWare.
+       .flex-item
+         img alt="Pete" src="/images/company/pete.png"
+         p.name
+           | Pete Kim
+         p.title
+           | CTO
+         p.bio
+           | Pete started programming at the age of 8, and has never stopped. A co-founder of Nitrous, Pete frequently contributes to open source and in his free time, enjoys road cycling.
+       .flex-item
+         img alt="Arabella" src="/images/company/arabella.png"
+         p.name
+           | Arabella David
+         p.title
+           | VP Marketing
+         p.bio
+           | Arabella has more than 15 years of developer marketing experience with global companies including Microsoft, Nokia, and Nest Labs.
 
-      li data-toggle="tooltip" title="AJ loves baseball, surfing, and networked home appliances. He studied economics at Harvard and is obsessed with microformats."
-        img alt="AJ" src="/images/company/solimine.png"
-
-      li data-toggle="tooltip" title="Pete started programming at the age of 8, when most kids were still picking their nose. He likes cycling and playing airsoft games."
-        img alt="Pete" src="/images/company/pete.png"
-
-      li data-toggle="tooltip" title="Arabella handles marketing at Nitrous, and hails from Microsoft, Nokia and Nest Labs. Kayaking is her jam."
-        img alt="Arabella" src="/images/company/arabella.png"
-
-      li data-toggle="tooltip" title="Nicole is the glue that holds it all together at Nitrous. She enjoys designing clothes, animals of all kinds, and reading great books."
-        img alt="Nicole" src="/images/company/nicole.png"
-
-      li data-toggle="tooltip" title="Chu Yeow likes: Miyo (his tortoiseshell cat), Japan, anime. Dislikes: trailing whitespace, tabs."
-        img alt="Chu Yeow" src="/images/company/cheah.png"
-
-      li data-toggle="tooltip" title="Sunjin is a Level 90 Pandaren Ale-Drinker at Nitrous. He is able to code for multiple days without sleep as long as there is an uninterrupted supply of beer."
-        img alt="Sunjin" src="/images/company/sunjin.png"
-
-      li data-toggle="tooltip" title="Javier is an avid cyclist who likes to spin up servers and watch them run in graphs and metrics."
-        img alt="Javier" src="/images/company/javier.png"
-
-      li data-toggle="tooltip" title="This is YC. YC writes code in cloud. YC uses Nitrous. YC is smart. Be like YC."
-        img alt="YC" src="/images/company/yc.png"
-
-      li data-toggle="tooltip" title="Joyce is a former Product Manager, turned Developer Evangelist.  She will challenge you to a push-up contest."
-        img alt="Joyce" src="/images/company/joyce.png"
 
 .hero.investors
   .container
-    .row
-      .col-xs-12.col-md-4
-        img src='/images/company/bvp-logo.png' width='315px' height='80px' alt='Bessemer Venture Partners logo'
-      .col-xs.12.col-md-8
-        p
-          | Bessemer Venture Partners led Nitrous' Seed and Series A financing rounds.
-        p
-          | Bessemer Venture Partners (BVP) invests in early-stage and hyper-growth startups, partnering closely with entrepreneurs to build durable businesses. With $4 billion under management, BVP invests anywhere from $100,000 to $75 million in innovative companies like Pinterest, Twilio, Box, LinkedIn, Shopify, Yelp, Skype and Nitrous. Over 100 BVP companies have gone public – in the last three years alone, BVP has had 46 exits (IPO and M&amp;A) and made new investments in more than 85 companies. Learn more at
-          a href="http://www.bvp.com/"  www.bvp.com
-          | .
+    img src='/images/company/bvp-logo.png' width='315px' height='80px' alt='Bessemer Venture Partners logo'
+    p
+      | Bessemer Venture Partners led Nitrous' Seed and Series A financing rounds.
+    p
+      | Bessemer Venture Partners (BVP) invests in early-stage and hyper-growth startups, partnering closely with entrepreneurs to build durable businesses. With $4.5 billion under management, BVP invests anywhere from $100,000 to $75 million in innovative companies like Pinterest, Twilio, Box, Twitch, LinkedIn, Shopify, Yelp, Skype and Nitrous. Over 100 BVP companies have gone public – in the last three years alone, BVP has had 46 exits (IPO and M&A) and made new investments in more than 85 companies. Learn more at
+      a href="http://www.bvp.com/"  www.bvp.com
+      | .
 
 = partial('/partials/map')

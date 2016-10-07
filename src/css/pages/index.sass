@@ -1,6 +1,9 @@
-.btn.btn-primary
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3)
-  text-transform: uppercase
+.hero
+  h2
+    font-size: 36px
+
+  h4.subtitle
+    font-size: 18px
 
 .window
   vertical-align: top
@@ -8,22 +11,31 @@
     position: relative
     height: 25px
     border-radius: 5px 5px 0 0
-    background: lighten($pubstormYellow, 20%)
-    background-image: linear-gradient(180deg, lighten($pubstormYellow, 25%), lighten($pubstormYellow, 20%))
-    box-shadow: inset 0 1px 0 lighten($pubstormYellow, 30%)
-    border-bottom: 1px solid $pubstormYellow
+    background: lighten($nitrousDark2, 20%)
+    background-image: linear-gradient(180deg, lighten($nitrousDark2, 25%), lighten($nitrousDark2, 20%))
+    box-shadow: inset 0 1px 0 lighten($nitrousDark2, 30%)
+    border-bottom: 1px solid $nitrousDark2
     .control
       display: inline-block
       vertical-align: top
       width: 11px
       height: 11px
       border-radius: 8px
-      background: $pubstormYellow
-      border: 1px solid darken($pubstormYellow, 12%)
       margin-top: 7px
       margin-left: 6px
+      background: $nitrousDark
+      border: 1px solid darken($nitrousDark, 12%)
       &:first-of-type
         margin-left: 10px
+      //.left
+      //  background: #fe5f56
+      //  border: 1px solid darken(#fe5f56, 12%)
+      //.mid
+      //  background: #febc2e
+      //  border: 1px solid darken(#febc2e, 12%)
+      //.right
+      //  background: #27c83f
+      //  border: 1px solid darken(#27c83f, 12%)
   .window-body
     background: #fdf6e3
     border-radius: 0 0 5px 5px
@@ -63,13 +75,13 @@
     display: inline-block
     vertical-align: top
     margin-top: 4px
-    background: lighten($pubstormYellow, 45%)
+    background: lighten($nitrousDark2, 45%)
     color: #777
     font-size: 11px
     font-weight: 600
     height: 18px
     line-height: 18px
-    border-bottom: 1px solid $pubstormYellow
+    border-bottom: 1px solid $nitrousDark2
     text-align: center
     border-radius: 3px
   .url-field
@@ -97,7 +109,7 @@
 #apps
   .browser.window
     .titlebar
-      border: 1px solid $pubstormYellow
+      border: 1px solid $nitrousDark2
       .url-field
         width: 220px
         left: 35%
@@ -145,11 +157,11 @@
             border-color: $brandBlue
 
 #pubstorm-demo
-  background: $brandBlue
+  background: $primaryCoral
   h2
-    color: #fff
+    color: $nitrousGrey3
   h4
-    color: rgba(255, 255, 255, .8)
+    color: $nitrousGrey3
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: $screen-xs-max)

@@ -15,29 +15,37 @@ main.jumbotron
     .row
       .col-md-5.col-sm-12.col-xs-12
         h1
-          | Start Coding
+          | Code, Collaborate
           br
-          | Powerful Apps in Seconds
+          | and Publish
         p
-          | No installation required. Create a new environment with our cloud IDE in seconds.
+          | Create a new environment in seconds with the Nitrous cloud IDE. Deploy straight from the CLI with PubStorm.
 
-        button.get-started-btn.btn.btn-lg.btn-primary type='button'
-          | Get Started Free
+        a.button.get-started-btn.btn.btn-lg.btn-primary type='button'
+          | Get Started
+
 
       .col-md-7.hidden-xs.hidden-sm#apps
         .browser.window
           .titlebar
             .control
+              .left
             .control
+              .mid
             .control
-            .left-nav-btn.titlebar-btn.hidden-xs
-              i.fa.fa-chevron-left
-            .right-nav-btn.titlebar-btn.hidden-xs
-              i.fa.fa-chevron-right
-            .url-field.titlebar-btn
-              i.fa.fa-lock.green
-              span.green https
-              | ://www.nitrous.io/projects/new
+              .right
+
+            /! commenting out the browser controls for arabella test
+            /!.left-nav-btn.titlebar-btn.hidden-xs
+            /!  i.fa.fa-chevron-left
+            /!.right-nav-btn.titlebar-btn.hidden-xs
+            /!  i.fa.fa-chevron-right
+            /!.url-field.titlebar-btn
+            /!  i.fa.fa-lock.green
+            /!  span.green https
+            /!  | ://www.nitrous.io/projects/new
+
+
           .window-body
             .new-project
               h4 New Project
@@ -95,9 +103,9 @@ main.jumbotron
 
 section.hero.featurette.peakaboo#solo
   .container-fluid
-    h2 Best-in-class Cloud IDE
+    h2 Nitrous cloud IDE: Start coding powerful apps now.
     h4.subtitle
-      | Intelligent auto-complete, live collaboration, beautiful themes and deployment from your web browser.
+      | Intelligent auto-complete, live collaboration, and deployment from your web browser. No installation required.
 
     .row
       .col-xs-12.col-md-6.col-lg-4.col-xl-4
@@ -107,32 +115,13 @@ section.hero.featurette.peakaboo#solo
       .hidden-xs.hidden-sm.hidden-md.col-lg-4
         img.img-fluid.center-block src="/images/ide/ide-ft-3.png" style="max-height: 500px;"
 
-section.hero#use-cases
-  .container
-    h2 Solutions for Education, Dev Teams & Agencies.
-    h4.subtitle
-      | Click any of the examples below to learn more about how the Nitrous Platform can help you and your team:
-    .flex-list
-      a.flex-item.education href="/education"
-        img src="/images/icons/education.png"
-        h4 Education
-        p Students start coding faster than ever. Zero setup, work from any web browser.
-      a.flex-item.remote href="/orgs"
-        img src="/images/icons/remote.png"
-        h4 Remote Teams
-        p Centralized billing and team management, snapshots and live collaboration.
-      a.flex-item.agencies href="/agencies"
-        img src="/images/icons/agency.png"
-        h4 Agencies
-        p Consistent development environments and lightning fast static site hosting with Nitrous PubStorm.
 
 section.hero#quickstarts
   .container
-    h2 Start Coding Now with Nitrous Quickstarts
+    h2 Nitrous cloud IDE Quickstarts
     h4.subtitle
-      . Create custom templates from any GitHub project by defining your project setup in
-      code
-        a href="https://community.nitrous.io/docs/nitrous-quickstarts" target="_blank" nitrous.json
+      . Create custom templates from any GitHub project.
+
     .flex-list.quickstarts
       a.flex-item href="https://www.nitrous.io/quickstart?repo=https://github.com/nitrous-io/example-rails"
         .logo
@@ -191,13 +180,13 @@ section.hero#quickstarts
         strong Custom Quickstarts.
         |  Want to create a custom Quickstart from your own GitHub Repo?
       .action
-        a.btn.btn-primary href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
+        a.btn.btn-default href="https://community.nitrous.io/docs/nitrous-quickstarts" Read Quickstart Docs
 
 section.hero#pubstorm-demo
   .container
     h2 Nitrous PubStorm
     h4.subtitle
-      | Lightning Fast, Free Website Hosting for Front-end Developers
+      | Lightning fast, free static website hosting for front-end developers.
 
     .terminal.window
       .titlebar
@@ -279,6 +268,5 @@ section.hero#pubstorm-demo
     .row
       .col-xs-12
         p.centered style="padding-top: 20px"
-          a.btn.btn-default href="https://www.pubstorm.com/#get-started"
+          a.btn.btn-primary href="https://www.pubstorm.com/#get-started"
             . Create Your Free PubStorm Website
-            i.fa.fa-chevron-right

@@ -16,6 +16,8 @@ header
             a href='/pricing' Pricing
           li
             a href='https://community.nitrous.io/' Community
+          li
+            a href='https://community.nitrous.io/docs' Documentation
           li.action
             a href="/app/#/login" Login
           li.action.signup
