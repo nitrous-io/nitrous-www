@@ -5,7 +5,7 @@
 
 .hero.features
   .container
-    h2 Nitrous Development Platform
+    h2 Nitrous Cloud IDE
     h4.subtitle
       | Zero installation. Spend time coding, not configuring software.
 
@@ -80,7 +80,7 @@
         p
           | Nitrous projects come with a set of pre-installed tools, libraries, and frameworks to get you coding fast.
         p
-          | Stop worrying about setting up your development environment, we'll take care of that for you.
+          | Stop worrying about setting up your development environment. We'll take care of that for you.
 
 .hero.featurette.full.peakaboo
   .container
