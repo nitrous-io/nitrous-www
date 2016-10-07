@@ -4,7 +4,7 @@ $('.get-started-btn').tooltip({
   trigger: 'hover'
 }).click(function(e) {
   e.preventDefault();
-  location.href = 'https://community.nitrous.io/docs/setup-a-dev-environment';
+  location.href = '/app/#/signup';
 });
 
 $('.npm-cmd').click(function() {
