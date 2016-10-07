@@ -269,4 +269,4 @@ section.hero#pubstorm-demo
       .col-xs-12
         p.centered style="padding-top: 20px"
           a.btn.btn-primary href="https://www.pubstorm.com/#get-started"
-            . Create Your Free PubStorm Website &raquo
+            . Create Your Free PubStorm Website
