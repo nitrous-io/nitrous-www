@@ -5,14 +5,16 @@ footer
         a.nitrous-logo href="/" Nitrous
         .copy-wrapper
           p &copy; 2012-2016 Nitrous Inc.
+
     .col-md-2
+
     .col-md-2
       h4 About
       ul
         li
           a href="/pricing" Pricing
         li
-          a href="/company" Company
+          a href="/company" About Us
         li
           a href="/jobs" Jobs
         li
