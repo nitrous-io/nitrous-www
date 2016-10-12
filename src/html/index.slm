@@ -28,12 +28,9 @@ main.jumbotron
       .col-md-7.hidden-xs.hidden-sm#apps
         .browser.window
           .titlebar
-            .control
-              .left
-            .control
-              .mid
-            .control
-              .right
+            .control.left
+            .control.mid
+            .control.right
 
             /! commenting out the browser controls for arabella test
             /!.left-nav-btn.titlebar-btn.hidden-xs
