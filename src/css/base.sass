@@ -1,5 +1,6 @@
 body
   font-family: $fontFamilyMain
+  overflow: hidden
 
 a, .btn, input
   transition: background-color .1s, color .1s, border-color .1s, box-shadow .1s
@@ -13,3 +14,45 @@ code, kbd, pre, samp
 .zoom
   transform: scale(0.96)
   transition: 0.3s cubicbezier(0.3, 0.6, 0.2, 1.4)
+
+#shutdown-notice
+  width: 100%
+  height: 100%
+  position: fixed
+  z-index: 999999999
+
+  background: $brandBlue
+  color: white
+
+  font-size: 16px
+  color: #fff
+  padding: 2em 0
+
+  #logo-section
+    margin-bottom: 2em
+
+    img
+      width: 96px
+
+  overflow: scroll
+  .container
+    overflow: scroll
+
+  p
+    padding: 0 12px
+    max-width: 600px
+    line-height: 1.75em
+    margin: 1em auto
+
+  a
+    color: #fff
+    text-decoration: underline
+
+  #shutdown-login
+    margin-top: 2em
+    display: block
+    background: #eeeeff
+    color: $brandBlue
+    text-decoration: none
+    &:hover
+      background: #fff

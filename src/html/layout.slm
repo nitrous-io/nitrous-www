@@ -17,6 +17,26 @@ html
     link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic,900,900italic|Source+Code+Pro:400,700|Montserrat:400,700'
     link rel='stylesheet' href='/css/app.css'
   body
+    #shutdown-notice
+      .container
+        p.text-center#logo-section
+          img.logo src="/images/nitrous-hexamark-white.svg"
+        p
+          | We will be discontinuing the Nitrous Development Platform and Cloud IDE on November 14th, 2016.&nbsp;
+
+        p
+          | If you have an active workstation, we will email you a link that allows you to download a backup of your data. You will have 15 days to download your data before it is deleted.&nbsp;
+          | If you didn't receive this email, please send us an email at <a href="mailto:support@nitrous.io">support@nitrous.io</a> and we will do our best to help.&nbsp;
+          | Payments made after October 16, 2016 will be refunded in full.
+
+        p
+          | In the coming weeks, we will be releasing a self-hosted &amp; open-source version of the Nitrous IDE called Nitrous Solo that will be available for free. Nitrous Solo lets you host your own instance of the Nitrous IDE on your preferred cloud provider.
+
+        p
+          a.btn.btn-warning#shutdown-login href="https://www.nitrous.io/app/#/login"
+            | Existing Users Login
+
+
     = content('body_before')
     = content('header', 'default')
       = partial('partials/navbar')
