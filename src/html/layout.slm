@@ -32,11 +32,6 @@ html
         p
           | In the coming weeks, we will be releasing a self-hosted &amp; open-source version of the Nitrous IDE called Nitrous Solo that will be available for free. Nitrous Solo lets you host your own instance of the Nitrous IDE on your preferred cloud provider.
 
-        p
-          a.btn.btn-warning#shutdown-login href="https://www.nitrous.io/app/#/login"
-            | Existing Users Login
-
-
     = content('body_before')
     = content('header', 'default')
       = partial('partials/navbar')
