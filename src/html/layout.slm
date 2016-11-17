@@ -31,6 +31,11 @@ html
 
         p
           | In the coming weeks, we will be releasing a self-hosted &amp; open-source version of the Nitrous IDE called Nitrous Solo that will be available for free. Nitrous Solo lets you host your own instance of the Nitrous IDE on your preferred cloud provider.
+        p
+          | Your subscription on any Nitrous email list will expire on November 30, 2016. If you would like to receive updates after November 30 about any of our open source initiatives, please click on the following button:
+        p
+          a.btn.btn-warning#shutdown-btn href="http://nfx-subscribe.s3-website-us-east-1.amazonaws.com/"
+            | I want to receive future open-source updates
 
     = content('body_before')
     = content('header', 'default')
